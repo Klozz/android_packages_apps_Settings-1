@@ -43,7 +43,6 @@ import com.android.settings.deviceinfo.SoftwareVersionPreferenceController;
 import com.android.settings.deviceinfo.StorageSizePreferenceController;
 import com.android.settings.deviceinfo.UptimePreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
-import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.EntityHeaderController;
@@ -94,7 +93,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(ImeiInfoPreferenceController.class).setHost(this /* parent */);
         use(DeviceNamePreferenceController.class).setHost(this /* parent */);
         mBuildNumberPreferenceController = use(BuildNumberPreferenceController.class);
         mBuildNumberPreferenceController.setHost(this /* parent */);
