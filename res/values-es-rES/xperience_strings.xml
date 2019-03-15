@@ -45,4 +45,6 @@
     <string name="screen_off_animation_scale">Escalado</string>
     <!-- Launch Dev Tools -->
     <string name="development_tools_title">Herramientas de desarrollo</string>
+    <!-- Force authorize substratum packages -->
+    <!-- Manage applications: show substratum overlays -->
 </resources>
