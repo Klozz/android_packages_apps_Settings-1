@@ -32,6 +32,11 @@
     <string name="menu_show_substratum">Mostrar capas</string>
     <string name="menu_hide_substratum">Ocultar capas</string>
     <!-- Reset Features -->
+    <string name="reset_all_settings">REINICIAR TODO</string>
+    <string name="reset_selected_settings">REINICIAR SELECCIONADOS</string>
+    <string name="reset_settings_title">Preferencias de características</string>
+    <string name="reset_settings_summary">Restablecer preferencias de características de XPerience</string>
+    <string name="keywords_settings_reset">restablecer</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Estado de SELinux</string>
     <string name="selinux_status_disabled">Desactivado</string>
