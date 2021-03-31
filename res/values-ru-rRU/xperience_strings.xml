@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_firmware_version">Версия XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- Hardware info -->
