@@ -110,4 +110,5 @@
     <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el kernel</string>
     <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
     <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
+    <!-- Face Unlock -->
 </resources>
