@@ -116,4 +116,7 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Bloqueo de pantalla, huella dactilar, desbloqueo facial</string>
     <string name="face_redo_confirm_btn">Rehacer</string>
     <string name="face_redo_warning_msg">¿Desea eliminar el escaneo facial actual y crear uno nuevo?</string>
+    <!--Battery Icon selection-->
+    <!-- Status bar - Battery percentage -->
+    <!-- XPerience Maintainer -->
 </resources>
