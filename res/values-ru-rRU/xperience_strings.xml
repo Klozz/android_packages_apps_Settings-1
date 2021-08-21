@@ -21,6 +21,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Канал</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_caf_number">Ветвь CAF</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
@@ -133,14 +134,40 @@
     <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
     <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключён</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Lock screen double tap -->
+    <string name="doubletap_lockscreen_screen_title">Выключение экрана</string>
+    <string name="doubletap_lockscreen_title">Дважды коснитесь экрана блокировки, чтобы перевести устройство в спящий режим</string>
+    <string name="doubletap_lockscreen_summary">Дважды коснитесь экрана блокировки, чтобы выключить экран</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона &amp; и уведомлений</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Провести для скриншота</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведите по экрану тремя пальцами вниз для создания скриншота</string>
     <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук скриншота</string>
     <!-- Notification sound -->
+    <string name="notification_sound_vib_screen_on_title">Звук уведомлений при включённом экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизведение звука и вибрации для уведомлений при включённом экране</string>
     <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена экономия заряда</string>
     <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s</xliff:g> вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s</xliff:g> вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
     <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">сзади</string>
+    <string name="security_settings_fingerprint_sensor_location_front">спереди</string>
+    <string name="security_settings_fingerprint_sensor_location_left">слева</string>
+    <string name="security_settings_fingerprint_sensor_location_right">справа</string>
     <!-- Inverted navbar layout -->
+    <string name="navbar_invert_layout_title">Инвертировать порядок кнопок</string>
 </resources>
