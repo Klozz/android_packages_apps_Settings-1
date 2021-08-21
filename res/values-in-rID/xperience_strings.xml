@@ -21,6 +21,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Saluran</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_caf_number">Cabang CAF</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -133,14 +134,37 @@
     <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
     <!-- SELinux Status -->
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
     <!-- Lock screen double tap -->
+    <string name="doubletap_lockscreen_screen_title">Tombol matikan layar</string>
+    <string name="doubletap_lockscreen_title">Ketuk dua kali untuk tidur di layar kunci</string>
+    <string name="doubletap_lockscreen_summary">Ketuk dua kali pada layar kunci untuk mematikan layar</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Usap untuk menangkap layar</string>
+    <string name="swipe_to_screenshot_gesture_summary">Usap tiga jari untuk mengambil tangkapan layar</string>
     <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
     <!-- Notification sound -->
+    <string name="notification_sound_vib_screen_on_title">Suara notifikasi jika aktif</string>
+    <string name="notification_sound_vib_screen_on_summary">Memutar suara dan getaran untuk notifikasi ketika layar hidup</string>
     <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Kecepatan refresh minimal</string>
+    <string name="max_refresh_rate_title">Kecepatan refresh maksimal</string>
+    <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
+    <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Tempatkan sensor sidik jari pada <xliff:g id="sensor_location">%1$s</xliff:g> tablet Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Tempatkan sensor sidik jari pada <xliff:g id="sensor_location">%1$s</xliff:g> perangkat Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Tempatkan sensor sidik jari pada <xliff:g id="sensor_location">%1$s</xliff:g> telepon Anda.</string>
     <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">belakang</string>
+    <string name="security_settings_fingerprint_sensor_location_front">depan</string>
+    <string name="security_settings_fingerprint_sensor_location_left">sisi kiri</string>
+    <string name="security_settings_fingerprint_sensor_location_right">sisi kanan</string>
     <!-- Inverted navbar layout -->
+    <string name="navbar_invert_layout_title">Tukar tata letak</string>
 </resources>
