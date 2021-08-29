@@ -21,6 +21,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Kênh</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_caf_number">Chi nhánh CAF</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Các nền tảng</string>
@@ -133,14 +134,40 @@
     <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
     <string name="status_bar_battery_percentage_text_next">Kế bên biểu tượng</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Vô hiệu hoá</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Lock screen double tap -->
+    <string name="doubletap_lockscreen_screen_title">Tắt màn hình</string>
+    <string name="doubletap_lockscreen_title">Nhấn hai lần để ngủ khi khoá màn hình</string>
+    <string name="doubletap_lockscreen_summary">Nhấn đúp vào màn hình khóa để tắt màn hình</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Vuốt để chụp ảnh màn hình</string>
+    <string name="swipe_to_screenshot_gesture_summary">Vuốt ba ngón tay để chụp màn hình</string>
     <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Âm thanh chụp màn hình</string>
     <!-- Notification sound -->
+    <string name="notification_sound_vib_screen_on_title">Thông báo âm thanh nếu hoạt động</string>
+    <string name="notification_sound_vib_screen_on_summary">Phát âm thanh và rung để thông báo khi màn hình bật</string>
     <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
+    <string name="battery_saver_refresh_rate_title">Giảm tốc độ làm mới</string>
+    <string name="battery_saver_refresh_rate_summary">Sử dụng màn hình 60 Hz để tiết kiệm pin khi bật Trình tiết kiệm pin</string>
     <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Đặt ngón tay của bạn vào <xliff:g id="sensor_location">%1$s</xliff:g> trên máy tính bảng của bạn để nhận dạng vân tay.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Chạm vào cảm biến vân tay ở <xliff:g id="sensor_location">%1$s</xliff:g> trên thiết bị của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Xác định vị trí cảm biến vân tay trên <xliff:g id="sensor_location">%1$s</xliff:g> điện thoại của bạn.</string>
     <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">Trở lại</string>
+    <string name="security_settings_fingerprint_sensor_location_front">mặt trước</string>
+    <string name="security_settings_fingerprint_sensor_location_left">Cạnh trái</string>
+    <string name="security_settings_fingerprint_sensor_location_right">cạnh phải</string>
     <!-- Inverted navbar layout -->
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục</string>
 </resources>
