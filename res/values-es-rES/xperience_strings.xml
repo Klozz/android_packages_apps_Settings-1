@@ -64,6 +64,7 @@
     <string name="daylight_header_pack_title">Paquete de imagen para la cabecera</string>
     <string name="status_bar_custom_header_shadow_title">Sombra de la imagen de cabecera</string>
     <string name="status_bar_custom_header_shadow_summary">Para mejorar la visibilidad en imágenes brillantes</string>
+    <string name="unit_percent">\u0025</string>
     <string name="static_header_provider_title">-- Estático --</string>
     <string name="daylight_header_provider_title">-- Dinámico --</string>
     <string name="custom_header_provider_title">Proveedor de imágenes</string>
@@ -142,6 +143,7 @@
     <string name="doubletap_lockscreen_title">Toca dos veces para apagar la pantalla</string>
     <string name="doubletap_lockscreen_summary">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
     <!-- Three-fingers-swipe to screenshot -->
