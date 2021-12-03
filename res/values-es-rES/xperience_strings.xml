@@ -52,4 +52,8 @@
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Evitar el encendido accidental</string>
     <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla</string>
+    <!-- Battery Settings -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
 </resources>
