@@ -27,6 +27,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canal de actualización</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Dispositivo</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -51,4 +52,8 @@
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Evitar el encendido accidental</string>
     <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla</string>
+    <!-- Battery Settings -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
 </resources>
