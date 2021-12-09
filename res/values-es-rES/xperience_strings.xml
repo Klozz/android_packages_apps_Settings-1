@@ -75,4 +75,5 @@
     <string name="status_bar_battery_percentage_text_next">Al lado del icono</string>
     <string name="left_battery_text_title">Texto de batería a la izquierda</string>
     <string name="left_battery_text_summary">Ponga el texto de la batería a la izquierda del icono de la batería</string>
+    <!-- Battery health -->
 </resources>
