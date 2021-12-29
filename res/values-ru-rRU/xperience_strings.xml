@@ -15,24 +15,52 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключен</string>
+    <string name="selinux_status_permissive">Разрешающий</string>
+    <string name="selinux_status_enforcing">Принудительный</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Версия XPerience</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Кодовое имя XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Канал</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Устройство</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего ОЗУ</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить расширенное меню перезагрузки</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры рекавери и загрузчика в меню питания</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена экономия заряда</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Провести для снимка экрана</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания снимка экрана</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Сменить поставщика услуг резервного копирования</string>
+    <string name="backup_transport_title">Выберите поставщика услуг резервного копирования</string>
     <!-- Statusbar net monitor -->
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Предотвращать случайное включение</string>
+    <string name="proximity_wake_summary">Проверять датчик приближения перед пробуждением</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Настройка батареи</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Стили батареи</string>
+    <string name="battery_style_category_summary">Выберите стили значка батареи</string>
+    <string name="battery_percent_title">Процент заряда батареи</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка (по умолчанию)</string>
     <!-- Status bar - Battery percentage -->
     <!-- Battery health -->
     <!-- Font style / Icon pack -->
