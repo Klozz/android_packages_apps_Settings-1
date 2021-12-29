@@ -85,4 +85,5 @@
     <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
     <!-- Font style / Icon pack -->
     <!-- Old mobile type icons -->
+    <!-- Lockscreen battery info indicator  -->
 </resources>
