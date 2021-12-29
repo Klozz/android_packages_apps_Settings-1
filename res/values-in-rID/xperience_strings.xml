@@ -77,6 +77,12 @@
     <string name="left_battery_text_title">Teks baterai kiri</string>
     <string name="left_battery_text_summary">Letakkan teks baterai di sebelah kiri ikon baterai</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Kesehatan Baterai</string>
+    <string name="battery_health_summary">Pantau kesehatan baterai perangkat Anda</string>
+    <string name="current_battery_capacity">Kapasitas baterai saat ini</string>
+    <string name="current_battery_capacity_summary">Kapasitas baterai saat ini diukur oleh kernel</string>
+    <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
+    <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
     <!-- Font style / Icon pack -->
     <!-- Old mobile type icons -->
     <!-- Lockscreen battery info indicator  -->
