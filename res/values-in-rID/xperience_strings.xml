@@ -49,6 +49,7 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Ubah penyedia cadangan</string>
     <string name="backup_transport_title">Pilih penyedia cadangan</string>
+    <!-- Statusbar net monitor -->
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
     <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
@@ -76,4 +77,6 @@
     <string name="left_battery_text_title">Teks baterai kiri</string>
     <string name="left_battery_text_summary">Letakkan teks baterai di sebelah kiri ikon baterai</string>
     <!-- Battery health -->
+    <!-- Font style / Icon pack -->
+    <!-- Old mobile type icons -->
 </resources>
