@@ -15,25 +15,67 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Vô hiệu hoá</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Phiên bản XPerience™ </string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Tên mã là XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Kênh</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Thiết bị</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Các nền tảng</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Tổng RAM</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị các tuỳ chọn cho recovery và bootloader trong menu nguồn</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
+    <string name="battery_saver_refresh_rate_title">Giảm tốc độ làm mới</string>
+    <string name="battery_saver_refresh_rate_summary">Sử dụng màn hình 60 Hz để tiết kiệm pin khi bật Trình tiết kiệm pin</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Thay đổi nhà cung cấp để sao lưu</string>
+    <string name="backup_transport_title">Chọn nhà cung cấp để sao lưu</string>
     <!-- Statusbar net monitor -->
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Ngăn chặn tình cờ bật màn hình</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi mở màn hình</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Thiết lập Pin</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Kiểu pin</string>
+    <string name="battery_style_category_summary">Chọn kiểu biểu tượng pin</string>
+    <string name="battery_percent_title">Phần trăm pin</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Kiểu thanh pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc (mặc định)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Biểu tượng nằm ngang R</string>
+    <string name="status_bar_battery_style_icon_landscape">Biểu tượng nằm ngang L</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn (Chấm)</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
+    <string name="status_bar_battery_style_text">Chữ</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
+    <string name="status_bar_battery_percentage_text_next">Kế bên biểu tượng</string>
+    <string name="left_battery_text_title">Bên trái pin kiểu chữ</string>
+    <string name="left_battery_text_summary">Đặt văn bản pin ở bên trái của biểu tượng pin</string>
     <!-- Battery health -->
     <!-- Font style / Icon pack -->
     <!-- Old mobile type icons -->
