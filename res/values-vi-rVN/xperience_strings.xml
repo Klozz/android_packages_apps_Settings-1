@@ -64,6 +64,7 @@
     <string name="daylight_header_pack_title">Gói hình ảnh tiêu đề</string>
     <string name="status_bar_custom_header_shadow_title">Đổ bóng hình ảnh đầu mục</string>
     <string name="status_bar_custom_header_shadow_summary">Cho khả năng nhìn thấy tốt hơn với các hình ảnh sáng</string>
+    <string name="unit_percent">\u0025</string>
     <string name="static_header_provider_title">Tĩnh</string>
     <string name="daylight_header_provider_title">Động</string>
     <string name="custom_header_provider_title">Nhà cung cấp đầu mục</string>
@@ -142,6 +143,7 @@
     <string name="doubletap_lockscreen_title">Nhấn hai lần để ngủ khi khoá màn hình</string>
     <string name="doubletap_lockscreen_summary">Nhấn đúp vào màn hình khóa để tắt màn hình</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Cửa Hàng Play</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Three-fingers-swipe to screenshot -->
