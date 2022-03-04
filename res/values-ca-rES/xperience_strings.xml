@@ -15,18 +15,65 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_firmware_version">Versió de XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_build_code">Nom en clau de XPerience </string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_caf_number">Branca CAF </string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auriculars guardats</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activa el reinici avançat</string>
+    <string name="global_actions_advanced_reboot_summary">Mostra les opcions per al recovery i bootloader </string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reproducció adaptativa</string>
+    <string name="adaptive_playback_disabled_summary">Desactivat</string>
+    <string name="adaptive_playback_timeout_title">Utilitzeu un temps d\'espera de</string>
+    <string name="adaptive_playback_timeout_none">Sense límit de temps</string>
+    <string name="adaptive_playback_timeout_none_summary">Activat (sense temps d\'espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segons</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activat (30 segons) </string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activat (1 minut) </string>
+    <string name="adaptive_playback_timeout_2_min">2 minuts</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activat (2 minuts) </string>
+    <string name="adaptive_playback_timeout_5_min">5 minuts</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activat (5 minuts) </string>
+    <string name="adaptive_playback_timeout_10_min">10 minuts</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activat (10 minuts) </string>
     <!-- Horizon Light -->
+    <string name="pulse_ambient_light_title">Notificacions Edge </string>
+    <string name="pulse_ambient_light_summary">Il·lumina les vores laterals de la pantalla al pols de notificació</string>
+    <string name="ambient_notification_light_accent_title">Color d\'accent del sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Color de notificació</string>
     <!-- Ambien music ticker -->
+    <string name="pulse_on_new_tracks_summary">Mostra la pantalla ambiental quan es reprodueix una pista de música nova. Fes doble toc a la informació de la pista per ometre a la pista següent.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Mostra la pantalla ambiental quan es reprodueix una pista de música nova</string>
     <!-- QS Headers -->
+    <string name="qsheader_title">Capçalera de QS </string>
+    <string name="status_bar_custom_header_title">Activar</string>
+    <string name="daylight_header_pack_title">Paquet d\'imatges de capçalera</string>
+    <string name="status_bar_custom_header_shadow_title">Ombra de la imatge de capçalera</string>
+    <string name="status_bar_custom_header_shadow_summary">Per a una millor visibilitat en imatges brillants</string>
+    <string name="static_header_provider_title">Estàtica</string>
+    <string name="daylight_header_provider_title">Dinàmic</string>
+    <string name="custom_header_provider_title">Proveïdor de capçalera</string>
+    <string name="custom_header_browse_title">Veure encapçalats instal·lats</string>
+    <string name="custom_header_browse_summary">Feu clic a qualsevol imatge per utilitzar per al mode estàtic</string>
+    <string name="custom_header_browse_summary_new">Navega per totes les col·leccions de capçaleres disponibles</string>
+    <string name="custom_header_pick_title">Selecciona una imatge de capçalera </string>
+    <string name="custom_header_pick_summary">Selecciona una imatge per utilitzar per al mode estàtic</string>
+    <string name="style_enabled_summary">La imatge de capçalera personalitzada està activada</string>
+    <string name="style_disabled_summary">La imatge de capçalera personalitzada està desactivada</string>
+    <string name="header_provider_disabled">Desactivat</string>
+    <string name="custom_header_title">Capçalera personalitzada</string>
     <!-- Screen Off animation -->
     <!-- Status bar Icon Manager -->
     <!-- Smart Pixels -->
