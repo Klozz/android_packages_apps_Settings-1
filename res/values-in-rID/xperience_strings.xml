@@ -17,6 +17,8 @@
     <!-- SELinux Status -->
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Dinonaktifkan</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">Versi XPerience</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
@@ -28,7 +30,9 @@
     <string name="about_device_name">Perangkat</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
     <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode pemulihan dan bootloader di menu daya</string>
