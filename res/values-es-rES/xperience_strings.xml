@@ -123,6 +123,7 @@
     <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    <!-- Face Unlock -->
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Activar linterna con la pantalla apagada</string>
     <string name="torch_power_button_gesture_none">Desactivado</string>
