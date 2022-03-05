@@ -131,4 +131,9 @@
     <string name="torch_power_button_gesture_lp">Pulsación prolongada del botón de encendido</string>
     <string name="xperience_gestures">Gesto del botón</string>
     <string name="button_custom">Gesto de encender linterna</string>
+    <!-- Show LTE/4G switch -->
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <!-- Lock screen visualizer -->
+    <!-- Custom carrier label and position -->
 </resources>
