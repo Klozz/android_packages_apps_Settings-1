@@ -153,4 +153,8 @@
     <string name="show_carrier_keyguard">Pantalla de bloqueo</string>
     <string name="show_carrier_statusbar">Barra de estado</string>
     <string name="show_carrier_enabled">Ambas</string>
+    <!-- Navbar options -->
+    <!-- Per-app volume -->
+    <!-- Immersive Navigation -->
+    <!-- Gesture bar length -->
 </resources>
