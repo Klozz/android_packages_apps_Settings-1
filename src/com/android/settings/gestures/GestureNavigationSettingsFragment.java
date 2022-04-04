@@ -16,13 +16,21 @@
 
 package com.android.settings.gestures;
 
+import static android.os.UserHandle.USER_CURRENT;
+import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
+
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.om.IOverlayManager;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.provider.Settings;
 import android.view.WindowManager;
+
+import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -41,9 +49,18 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     public static final String GESTURE_NAVIGATION_SETTINGS =
             "com.android.settings.GESTURE_NAVIGATION_SETTINGS";
+    public static final String IMMERSIVE_NAVIGATION_SETTINGS =
+            "immersive_navigation";
 
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
+    private static final String IMMERSIVE_NAV_KEY = "immersive_navigation";
+    private static final String NAV_MODE_IMMERSIVE_OVERLAY =
+            "mx.xperience.overlay.systemui.immnav.gestural";
+
+    private IOverlayManager mOverlayService;
+
+    private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
@@ -61,6 +78,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         mIndicatorView = new BackGestureIndicatorView(getActivity());
         mWindowManager = (WindowManager) getActivity().getSystemService(Context.WINDOW_SERVICE);
+        mOverlayService = IOverlayManager.Stub
+                .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
     }
 
     @Override
@@ -75,6 +94,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         initSeekBarPreference(LEFT_EDGE_SEEKBAR_KEY);
         initSeekBarPreference(RIGHT_EDGE_SEEKBAR_KEY);
+        initImmersiveSwitchPreference();
+        initGestureBarLengthPreference();
     }
 
     @Override
@@ -148,6 +169,50 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             Settings.Secure.putFloat(getContext().getContentResolver(), settingsKey, scale);
             return true;
         });
+    }
+
+    private void initImmersiveSwitchPreference() {
+        SwitchPreference prefImmersiveNav = getPreferenceScreen().findPreference(IMMERSIVE_NAV_KEY);
+        prefImmersiveNav.setOnPreferenceChangeListener((preference, o) -> {
+            final boolean isEnabled = (Boolean) o;
+            final LabeledSeekBarPreference prefLength =
+                    getPreferenceScreen().findPreference(GESTURE_NAVBAR_LENGTH_KEY);
+            if (isEnabled) {
+                try {
+                    mOverlayService.setEnabledExclusiveInCategory(NAV_MODE_IMMERSIVE_OVERLAY,
+                            USER_CURRENT);
+                } catch (RemoteException re) {
+                    throw re.rethrowFromSystemServer();
+                }
+            } else {
+                try {
+                    mOverlayService.setEnabledExclusiveInCategory(NAV_BAR_MODE_GESTURAL_OVERLAY,
+                            USER_CURRENT);
+                    mOverlayService.setEnabled(NAV_MODE_IMMERSIVE_OVERLAY, false, USER_CURRENT);
+                } catch (RemoteException re) {
+                    throw re.rethrowFromSystemServer();
+                }
+            }
+            Settings.Secure.putInt(getContext().getContentResolver(),
+                    IMMERSIVE_NAVIGATION_SETTINGS, isEnabled ? 1 : 0);
+            prefLength.setEnabled(!isEnabled);
+            return true;
+        });
+        prefImmersiveNav.setChecked(Settings.Secure.getInt(getContext().getContentResolver(),
+                IMMERSIVE_NAVIGATION_SETTINGS, 0) != 0);
+    }
+
+    private void initGestureBarLengthPreference() {
+        final LabeledSeekBarPreference pref =
+                getPreferenceScreen().findPreference(GESTURE_NAVBAR_LENGTH_KEY);
+        pref.setContinuousUpdates(true);
+        pref.setProgress(Settings.System.getInt(getContext().getContentResolver(),
+            Settings.System.GESTURE_NAVBAR_LENGTH, 0));
+        pref.setOnPreferenceChangeListener((p, v) ->
+            Settings.System.putInt(getContext().getContentResolver(),
+                Settings.System.GESTURE_NAVBAR_LENGTH, (Integer) v));
+        pref.setEnabled(Settings.Secure.getInt(getContext().getContentResolver(),
+            IMMERSIVE_NAVIGATION_SETTINGS, 0) == 0);
     }
 
     private static float[] getFloatArray(TypedArray array) {
