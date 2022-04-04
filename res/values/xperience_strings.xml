@@ -180,4 +180,20 @@
     <string name="show_carrier_keyguard">Lock screen</string>
     <string name="show_carrier_statusbar">Status bar</string>
     <string name="show_carrier_enabled">Both</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+
+    <!-- Per-app volume -->
+    <string name="app_volume">App volume</string>
+
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Navigation bar</string>
+    <string name="immersive_navigation_title">Immersive navigation</string>
+    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
+
+    <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">Gesture pill length</string>
+    <string name="gesture_navbar_length_preference_short_label">Short</string>
+    <string name="gesture_navbar_length_preference_long_label">Long</string>
 </resources>
