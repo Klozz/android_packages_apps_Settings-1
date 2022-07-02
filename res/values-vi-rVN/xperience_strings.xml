@@ -103,13 +103,66 @@
     <string name="unlock_quick_unlock_control_title">Mở khoá nhanh</string>
     <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập đúng PIN/mật khẩu</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Điều khiển nhạc</string>
+    <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Phát nhạc linh động</string>
+    <string name="adaptive_playback_enabled">Sử dụng phát lại thích ứng</string>
+    <string name="adaptive_playback_disabled_summary">Tắt</string>
+    <string name="adaptive_playback_intro_text">Phát nhạc thích ứng tự động dừng phát đa phương tiện khi tắt âm lượng và tự động phát đa phương tiện khi âm lượng được khôi phục lại theo thời gian đặt trước.</string>
+    <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ của</string>
+    <string name="adaptive_playback_timeout_none">Không có thời gian chờ</string>
+    <string name="adaptive_playback_timeout_none_summary">Bật (không có thời gian chờ)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 giây</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Bật (30 giây)</string>
+    <string name="adaptive_playback_timeout_1_min">1 phút</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Bật (1 phút)</string>
+    <string name="adaptive_playback_timeout_2_min">2 phút</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Bật (2 phút)</string>
+    <string name="adaptive_playback_timeout_5_min">5 phút</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Bật (5 phút)</string>
+    <string name="adaptive_playback_timeout_10_min">10 phút</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Bật (10 phút)</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
+    <string name="face_redo_confirm_btn">Làm lại</string>
+    <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới không?</string>
+    <string name="face_unlock_method_title">Cho phép từ màn hình khóa</string>
+    <string name="face_unlock_method_default">Khi màn hình được bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
     <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Bật tắt đèn khi màn hình</string>
+    <string name="torch_power_button_gesture_none">Vô hiệu hoá</string>
+    <string name="torch_power_button_gesture_dt">Nhấn đúp nút nguồn (phản hồi nhấn một lần chậm hơn), Tắt nhấn đúp cho máy ảnh.</string>
+    <string name="torch_power_button_gesture_dt_toast">Mở nhanh máy ảnh đã tắt</string>
+    <string name="torch_power_button_gesture_lp">Bấm giữ phím nguồn</string>
+    <string name="xperience_gestures">Các nút và cử chỉ</string>
+    <string name="button_custom">Cử chỉ flash nút nguồn</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Hiện 4G thay cho LTE</string>
+    <string name="show_fourg_icon_summary">Thay thế chỉ báo LTE bằng 4G</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Tên nhà cung cấp</string>
+    <string name="carrier_label_settings_summary">Tùy chỉnh tên nhà cung cấp</string>
+    <string name="custom_carrier_label_title">Tùy chỉnh tên nhà mạng</string>
+    <string name="custom_carrier_label_explain">Nhập tên tùy chỉnh. Để trống để dùng tên nhà mạng mặc định</string>
+    <string name="custom_carrier_label_notset">Tuỳ chỉnh nhãn hiện không đặt</string>
+    <string name="show_carrier_title">Vị trí tên nhà mạng</string>
+    <string name="show_carrier_disabled">Vô hiệu hoá</string>
+    <string name="show_carrier_keyguard">Lock screen</string>
+    <string name="show_carrier_statusbar">Thanh trạng thái</string>
+    <string name="show_carrier_enabled">Cả hai</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
     <!-- Per-app volume -->
+    <string name="app_volume">Âm thanh ứng dụng</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Thanh điều hướng</string>
+    <string name="immersive_navigation_title">Kích hoạt điều hướng thực tại ảo</string>
+    <string name="immersive_navigation_summary">Ẩn thanh điều hướng bên dưới.</string>
     <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">Độ dài thanh cử chỉ</string>
+    <string name="gesture_navbar_length_preference_short_label">Ngắn</string>
+    <string name="gesture_navbar_length_preference_long_label">Dài</string>
 </resources>
