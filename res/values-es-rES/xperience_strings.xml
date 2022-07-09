@@ -115,6 +115,9 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Usar antiguos iconos de datos móviles</string>
     <string name="use_old_mobiletype_summary">Muestra el icono del tipo de señal en la parte superior del indicador de señal</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN o contraseña</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Píxeles inteligentes es una característica de ahorro de energía. Dependiendo de cuántos píxeles decidas desactivar, podrías ver mejoras en la vida útil de la batería. Ten en cuenta que en algunos casos puede resultar en zonas no receptivas en la pantalla táctil</string>
     <string name="smart_pixels_title">Píxeles inteligentes</string>
@@ -158,4 +161,5 @@
     <!-- UI -->
     <string name="xperience_ui_title">Interfaz de usuario XPerience</string>
     <string name="ui_custom">Personalizaciones de interfaz de usuario y juego</string>
+
 </resources>

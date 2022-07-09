@@ -18,7 +18,15 @@ package com.android.settings;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
+
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreference;
 
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
@@ -59,6 +67,7 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+
     }
 
     @Override
