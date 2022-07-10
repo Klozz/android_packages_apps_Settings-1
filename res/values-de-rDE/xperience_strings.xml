@@ -33,7 +33,13 @@
     <!-- Battery Settings -->
     <!-- Battery Styles -->
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_circle">Kreissymbol</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Akkustand in Prozent</string>
+    <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
+    <string name="status_bar_battery_percentage_text_next">Neben dem Symbol</string>
     <!-- Battery health -->
     <!-- Font style / Icon pack -->
     <!-- Old mobile type icons -->
