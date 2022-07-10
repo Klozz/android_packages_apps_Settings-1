@@ -88,6 +88,7 @@
     <string name="icon_manager_title">Менеджер иконок</string>
     <string name="icon_manager_summary">Управление видимостью значков в строке состояния</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
     <string name="smart_pixels_summary">Экономить заряд батареи, выключая дополнительные пиксели</string>
     <string name="smart_pixels_enable_title">Включить Smart Pixels</string>
     <string name="smart_pixels_enable_summary">Выключить пиксели для снижения энергопотребления</string>
@@ -135,11 +136,14 @@
     <!-- SELinux Status -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключён</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Lock screen double tap -->
     <string name="doubletap_lockscreen_screen_title">Выключение экрана</string>
     <string name="doubletap_lockscreen_title">Дважды коснитесь экрана блокировки, чтобы перевести устройство в спящий режим</string>
     <string name="doubletap_lockscreen_summary">Дважды коснитесь экрана блокировки, чтобы выключить экран</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость рингтона &amp; и уведомлений</string>
     <!-- Three-fingers-swipe to screenshot -->
