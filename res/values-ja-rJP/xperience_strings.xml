@@ -20,7 +20,9 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">プラットフォーム</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">合計RAM</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Global Actions -->
     <!-- Adaptive Playback -->
@@ -28,15 +30,31 @@
     <!-- Ambien music ticker -->
     <!-- QS Headers -->
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">画面オフ時のアニメーション</string>
+    <string name="screen_off_animation_default">既定</string>
+    <string name="screen_off_animation_scale">縮小</string>
     <!-- Status bar Icon Manager -->
     <!-- Smart Pixels -->
     <!-- Statusbar configs -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">ネットワーク通信量</string>
+    <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>
+    <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
     <!-- Battery health -->
     <!-- Face Unlock -->
     <!--Battery Icon selection-->
+    <string name="status_bar_battery_style_circle">円</string>
+    <string name="status_bar_battery_style_text">テキスト</string>
+    <string name="status_bar_battery_style_hidden">非表示</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
+    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux ステータス</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Lock screen double tap -->
     <!-- App details: open play store link if app is user installed -->
     <!-- Volume link notification -->
@@ -45,6 +63,11 @@
     <!-- Notification sound -->
     <!-- Min refresh rate -->
     <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
     <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">背面</string>
+    <string name="security_settings_fingerprint_sensor_location_front">前面</string>
+    <string name="security_settings_fingerprint_sensor_location_left">左側</string>
+    <string name="security_settings_fingerprint_sensor_location_right">右側</string>
     <!-- Inverted navbar layout -->
 </resources>
