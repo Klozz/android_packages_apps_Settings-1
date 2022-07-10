@@ -33,7 +33,13 @@
     <!-- Battery Settings -->
     <!-- Battery Styles -->
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_circle">Cerc</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Ascuns</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Procentaj baterie</string>
+    <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
+    <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
     <!-- Battery health -->
     <!-- Font style / Icon pack -->
     <!-- Old mobile type icons -->
