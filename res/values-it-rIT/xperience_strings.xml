@@ -34,6 +34,7 @@
     <string name="global_actions_advanced_reboot_summary">Mostra opzioni per recovery e bootloader</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Riproduzione adattiva</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
     <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
     <string name="adaptive_playback_timeout_none">Nessun timeout</string>
     <string name="adaptive_playback_timeout_none_summary">Acceso (nessun timeout)</string>
@@ -63,6 +64,7 @@
     <string name="daylight_header_pack_title">Pacchetto immagini dell\'intestazione</string>
     <string name="status_bar_custom_header_shadow_title">Ombra immagini dell\'intestazione</string>
     <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità sulle immagini luminose</string>
+    <string name="unit_percent">\u0025</string>
     <string name="static_header_provider_title">Statico</string>
     <string name="daylight_header_provider_title">Dinamico</string>
     <string name="custom_header_provider_title">Fornitore intestazione</string>
@@ -141,6 +143,7 @@
     <string name="doubletap_lockscreen_title">Tocca due volte per spegnere lo schermo sulla schermata di blocco</string>
     <string name="doubletap_lockscreen_summary">Tocca due volte sul blocco schermo per spegnere lo schermo</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
     <!-- Three-fingers-swipe to screenshot -->
