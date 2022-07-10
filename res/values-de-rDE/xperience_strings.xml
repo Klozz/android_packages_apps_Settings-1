@@ -35,7 +35,13 @@
     <!-- Battery health -->
     <!-- Face Unlock -->
     <!--Battery Icon selection-->
+    <string name="status_bar_battery_style_circle">Kreissymbol</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Akkustand in Prozent</string>
+    <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
+    <string name="status_bar_battery_percentage_text_next">Neben dem Symbol</string>
     <!-- SELinux Status -->
     <!-- Lock screen double tap -->
     <!-- App details: open play store link if app is user installed -->
