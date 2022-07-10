@@ -33,7 +33,13 @@
     <!-- Battery Settings -->
     <!-- Battery Styles -->
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
     <!-- Battery health -->
     <!-- Font style / Icon pack -->
     <!-- Old mobile type icons -->
