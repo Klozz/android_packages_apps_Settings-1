@@ -16,37 +16,96 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">XPerience™ Sürümü</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">XPerience™ Cihaz kod adı</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About to show Device name -->
+    <string name="about_device_name">Cihaz</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
     <!-- Refresh rate -->
     <!-- Volume link notification -->
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Üç parmak hareketi</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızla aşağı kaydırın</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Yedekleme sağlayıcısını değiştir</string>
+    <string name="backup_transport_title">Yedekleme sağlayıcısını seçin</string>
     <!-- Statusbar net monitor -->
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Pil ayarları</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Pil stili</string>
+    <string name="battery_style_category_summary">Pil simgesi stilleri seçin</string>
+    <string name="battery_percent_title">Pil yüzdesi</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_icon_rlandscape">Yatay simge (Sağ)</string>
+    <string name="status_bar_battery_style_icon_landscape">Yatay simge (Sol)</string>
     <!-- Status bar - Battery percentage -->
+    <string name="left_battery_text_title">Pil metni solda</string>
+    <string name="left_battery_text_summary">Pil metnini pil simgesinin soluna yerleştir</string>
     <!-- Battery health -->
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Yazı tipi</string>
+    <string name="theme_customization_icon_pack_title">Simge paketi</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Küçük mobil ağ simgesi</string>
+    <string name="use_old_mobiletype_summary">Mobil ağ simgesini sinyal göstergesinin üstünde göster</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Kilit ekranında şarj bilgisi</string>
+    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj akımını, voltajını, watt değerini ve pil sıcaklığını göster</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_enabled">Uyarlanabilir oynatma etkin</string>
+    <string name="adaptive_playback_intro_text">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
     <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi ile açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıkken</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Güç tuşu ile fener aç</string>
+    <string name="torch_power_button_gesture_none">Devre dışı</string>
+    <string name="torch_power_button_gesture_dt">Güç tuşuna çift tıklayarak fener açma (daha yavaş tek dokunma tepkisi), çift tıklama ile kamera açmayı devre dışı bırakır.</string>
+    <string name="torch_power_button_gesture_dt_toast">Kamera açma hareketi şu anda devre dışı</string>
+    <string name="torch_power_button_gesture_lp">Güç tuşuna uzun bas</string>
+    <string name="xperience_gestures">Gezinme</string>
+    <string name="button_custom">Güç tuşu hareketi</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">LTE yerine 4G göster</string>
+    <string name="show_fourg_icon_summary">LTE göstergesini 4G ile değiştirir</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Operatör etiketi</string>
+    <string name="carrier_label_settings_summary">Operatör etiketini özelleştir</string>
+    <string name="custom_carrier_label_title">Özel operatör etiketi</string>
+    <string name="custom_carrier_label_explain">Özel bir etiket girin. Ağ adınızı kullanmak için boş bırakın</string>
+    <string name="custom_carrier_label_notset">Özel etiket şu anda ayarlı değil</string>
+    <string name="show_carrier_title">Operatör etiketi konumu</string>
+    <string name="show_carrier_disabled">Devre dışı</string>
+    <string name="show_carrier_keyguard">Kilit Ekranı</string>
+    <string name="show_carrier_statusbar">Durum çubuğu</string>
+    <string name="show_carrier_enabled">Her ikisi de</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
     <!-- Per-app volume -->
+    <string name="app_volume">Uygulama ses düzeyi</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Gezinme çubuğu</string>
+    <string name="immersive_navigation_title">Tam ekran gezinme</string>
     <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">Hareket çubuğu uzunluğu</string>
+    <string name="gesture_navbar_length_preference_short_label">Kısa</string>
+    <string name="gesture_navbar_length_preference_long_label">Uzun</string>
 </resources>
