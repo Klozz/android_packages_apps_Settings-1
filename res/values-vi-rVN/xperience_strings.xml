@@ -116,6 +116,7 @@
     <string name="use_old_mobiletype_title">Biểu tượng di động cỡ nhỏ</string>
     <string name="use_old_mobiletype_summary">Hiển thị biểu tượng loại di động trên đầu chỉ báo tín hiệu</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Điểm ảnh thông minh là một tính năng tiết kiệm pin. Tùy thuộc vào bao nhiêu điểm bạn quyết định tắt, bạn có thể thấy cải thiện thời gian sử dụng pin</string>
     <string name="smart_pixels_title">Điểm ảnh thông minh</string>
     <string name="smart_pixels_summary">Tiết kiệm pin bằng cách tắt các điểm ảnh phụ</string>
     <string name="smart_pixels_enable_title">Bật Điểm ảnh thông minh</string>
