@@ -37,6 +37,7 @@
     <string name="dc_dimming_title">Ajuste de Brillo alternativo [DC-Diming]</string>
     <string name="dc_dimming_info">Reduce la tensión de los ojos en condiciones de poca luz al minimizar el parpadeo de la pantalla. Puede resultar en una menor calidad de imagen y una mala producción de color, o un mayor consumo de energía.</string>
     <string name="dc_dimming_main_switch_title">Usar Dimming DC</string>
+    <string name="keywords_display_dc_dimming">atenuación de dc, anti-parpadeo, anti-fatiga visual</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Carga rápida</string>
     <string name="fast_charging_summary">Desactivar para reducir el calor producido por el dispositivo mientras se carga o para extender la esperanza de vida de la batería</string>
