@@ -82,4 +82,8 @@
     <string name="three_finger_gesture">Desliza para captura de pantalla</string>
     <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opciones de vibración durante la llamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar con la llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
 </resources>
