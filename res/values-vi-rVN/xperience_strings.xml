@@ -70,4 +70,11 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Chạm vào cảm biến ở mặt bên của máy tính bảng của bạn.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Chạm vào cảm biến ở bên cạnh thiết bị của bạn.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Chạm vào cảm biến ở mặt bên của điện thoại.</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị các tuỳ chọn cho recovery và bootloader trong menu nguồn</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
+    <!-- Incall vibrate options -->
 </resources>
