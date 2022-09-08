@@ -75,4 +75,11 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toca el sensor de huellas lateral de tu tablet.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toca el sensor de huellas lateral de tu dispositivo.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toca el sensor de huellas lateral de tu teléfono.</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activar reinicio avanzado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para recuperación y cargador de arranque</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Desliza para captura de pantalla</string>
+    <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
+    <!-- Incall vibrate options -->
 </resources>
