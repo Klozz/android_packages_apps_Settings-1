@@ -75,4 +75,11 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Sentuh sensor di bagian samping tablet Anda.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Sentuh sensor di bagian samping perangkat Anda.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Sentuh sensor di bagian samping ponsel Anda.</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode pemulihan dan bootloader di menu daya</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Usap untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
+    <!-- Incall vibrate options -->
 </resources>
