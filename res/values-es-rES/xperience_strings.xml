@@ -86,4 +86,18 @@
     <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
     <string name="incall_vibrate_call_wait_title">Vibrar con la llamada en espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Evitar el encendido accidental</string>
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animación de apagado de pantalla</string>
+    <string name="screen_off_animation_default">Predeterminado</string>
+    <string name="screen_off_animation_scale">Escalado</string>
+    <!-- Themes customization -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Paquete de iconos</string>
+    <!-- Custom Signal bar icons -->
+    <!-- Custom Wi-Fi bar icons -->
 </resources>
