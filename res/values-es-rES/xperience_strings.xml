@@ -128,7 +128,11 @@
     <string name="disable_in_landscape_summary">Evitar el toque erróneo en modo horizontal</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Volumen de aplicación</string>
+    <string name="app_volume_title">Control de volumen por aplicación</string>
+    <string name="app_volume_summary">Permite establecer diferentes niveles de volumen para cada aplicación</string>
+    <string name="volume_dialog_category">Diálogo de volumen</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reproducción adaptable</string>
     <string name="adaptive_playback_enabled">Usar reproducción adaptativa</string>
     <string name="adaptive_playback_disabled_summary">Desactivado</string>
     <string name="adaptive_playback_intro_text">La reproducción adaptativa detiene automáticamente la reproducción cuando el volumen se silencia y se reanudará automáticamente si el volumen se restablece dentro del tiempo establecido.</string>
@@ -168,6 +172,8 @@
     <string name="battery_percent_summary">Configurar los iconos y estilos de texto para el indicador de batería de la barra de estado</string>
     <string name="status_bar_battery_style_title">Estilo de batería</string>
     <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
     <string name="status_bar_battery_style_circle">Circulo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
     <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
