@@ -146,6 +146,8 @@
     <string name="battery_percent_summary">Konfigurasi ikon dan gaya teks untuk indikator baterai bilah status</string>
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
     <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ikon mendatar (Kanan)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikon mendatar (Kiri)</string>
     <string name="status_bar_battery_style_circle">Lingkaran</string>
     <string name="status_bar_battery_style_dotted_circle">Lingkaran bertitik</string>
     <string name="status_bar_battery_style_filled_circle">Lingkaran berisi</string>
