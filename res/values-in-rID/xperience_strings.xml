@@ -157,4 +157,6 @@
     <string name="status_bar_battery_percentage_default">Tersembunyi</string>
     <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
 </resources>
