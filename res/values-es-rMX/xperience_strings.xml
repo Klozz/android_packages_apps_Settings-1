@@ -186,4 +186,13 @@
     <!-- Volume link notification -->
     <string name="ring_only_volume_option_title">Volumen de timbre</string>
     <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra de estado</string>
+    <string name="statusbar_custom">Personalizaciones de la barra de estado</string>
+    <string name="network_traffic_state_title">Tráfico de red</string>
+    <string name="network_traffic_state_summary">Mostrar velocidad de la red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para ocultarse (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Oculta las flechas de actividad del monitor</string>
+    <!-- Notch: Full screen apps -->
 </resources>
