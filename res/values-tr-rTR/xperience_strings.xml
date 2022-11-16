@@ -17,33 +17,97 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Kanal</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Toplam RAM</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Gelişmiş yeniden başlatmayı etkinleştir</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_disabled_summary">Kapalı</string>
+    <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
+    <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 dakika)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
     <!-- Horizon Light -->
     <!-- Ambien music ticker -->
     <!-- QS Headers -->
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
+    <string name="screen_off_animation_default">Varsayılan</string>
+    <string name="screen_off_animation_scale">Ölçeklendir</string>
     <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Simge yöneticisi</string>
+    <string name="icon_manager_summary">Durum çubuğu simgelerinin görünürlüğünü kontrol edin</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Akıllı pikseller</string>
+    <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
+    <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
+    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
+    <string name="smart_pixels_on_power_save_title">Pil tasarrufu için otomatik etkinleştir</string>
+    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde Akıllı Pikselleri etkinleştirin</string>
+    <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
     <!-- Statusbar configs -->
+    <string name="statusbar_custom">Durum çubuğu özelleştirmeleri</string>
+    <string name="xperience_statusbar">Durum çubuğu</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Ağ trafiği</string>
+    <string name="network_traffic_state_summary">Durum çubuğunda ağ etkinliğini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
+    <string name="network_traffic_hidearrow">Okları Gizle</string>
+    <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Pil sağlığı</string>
+    <string name="battery_health_summary">Cihazınızın pil sağlığını izleyin</string>
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="current_battery_capacity_summary">Çekirdek tarafından ölçülen mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">Tasarlanmış pil kapasitesi</string>
+    <string name="designed_battery_capacity_summary">Üretici tarafından tasarlanan pil kapasitesi</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="face_redo_confirm_btn">Yinele</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
     <!--Battery Icon selection-->
+    <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="status_bar_battery_style_circle">Çember</string>
+    <string name="status_bar_battery_style_text">Yazı</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simge yanında</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux durumu</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
+    <string name="selinux_status_permissive">Permissive (Serbest)</string>
+    <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
     <!-- Lock screen double tap -->
     <!-- App details: open play store link if app is user installed -->
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil sesi &amp; bildirim sesini bağla</string>
     <!-- Three-fingers-swipe to screenshot -->
     <!-- Screenshot shutter -->
     <!-- Notification sound -->
     <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
+    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
+    <string name="battery_saver_refresh_rate_title">Yenileme hızını azalt</string>
+    <string name="battery_saver_refresh_rate_summary">Pil tasarrufu açıkken güç tasarrufu yapmak için 60 Hz ekran yenileme hızını kullanın</string>
     <!-- Format string for fingerprint location message -->
     <!-- Fingerprint sensor locations -->
     <!-- Inverted navbar layout -->
