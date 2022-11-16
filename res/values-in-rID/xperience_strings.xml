@@ -209,4 +209,6 @@
     <string name="power_button_torch_title">Obor cepat</string>
     <string name="power_button_torch_summary">Saat layar mati, menekan lama tombol daya akan mengaktifkan senter</string>
     <!-- Black theme -->
+    <string name="system_black_theme_title">Gunakan tema gelap</string>
+    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
 </resources>
