@@ -20,11 +20,14 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Версия XPerience</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Кодовое имя XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Канал</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Устройство</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
@@ -32,6 +35,7 @@
     <string name="total_ram">Всего ОЗУ</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры для рекавери (режима восстановления) и загрузчика в меню кнопки питания</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
@@ -40,6 +44,8 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость рингтона &amp; и уведомлений</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Свайп для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания скриншота</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Строка состояния</string>
@@ -50,6 +56,7 @@
     <string name="network_traffic_hidearrow">Скрыть стрелки</string>
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Предотвращение случайного включения экрана</string>
     <!-- Battery Settings -->
     <!-- Battery Styles -->
     <!-- Status bar - Battery -->
@@ -73,13 +80,16 @@
     <string name="designed_battery_capacity">Заявленная емкость батареи</string>
     <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_icon_pack_title">Набор значков</string>
     <!-- Old mobile type icons -->
     <!-- Lockscreen battery info indicator  -->
     <!-- Quick unlock -->
     <!-- Volume button music control -->
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_enabled">Использовать адаптивное воспроизведение</string>
     <string name="adaptive_playback_disabled_summary">Выключено</string>
+    <string name="adaptive_playback_intro_text">Автоматически приостанавливает воспроизведение медиа при отключении громкости и автоматически возобновляет его при увеличении громкости в течение заданного времени.</string>
     <string name="adaptive_playback_timeout_title">Использовать таймаут</string>
     <string name="adaptive_playback_timeout_none">Отсутствие времени ожидания</string>
     <string name="adaptive_playback_timeout_none_summary">Вкл (без паузы)</string>
@@ -103,6 +113,9 @@
     <!-- Custom carrier label and position -->
     <!-- Navbar options -->
     <!-- Per-app volume -->
+    <string name="app_volume">Громкость приложений</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Панель навигации</string>
+    <string name="immersive_navigation_summary">Скрыть полоску жестов и отступ панели навигации.</string>
     <!-- Gesture bar length -->
 </resources>
