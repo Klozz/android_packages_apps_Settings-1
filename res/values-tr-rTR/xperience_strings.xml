@@ -68,13 +68,17 @@
     <string name="battery_percent_title">Pil yüzdesi</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="status_bar_battery_style_icon_portrait">Dikey simge (varsayılan)</string>
     <string name="status_bar_battery_style_icon_rlandscape">Yatay simge (Sağ)</string>
     <string name="status_bar_battery_style_icon_landscape">Yatay simge (Sol)</string>
     <string name="status_bar_battery_style_circle">Çember</string>
+    <string name="status_bar_battery_style_dotted_circle">Daire (Noktalı)</string>
+    <string name="status_bar_battery_style_filled_circle">Daire (Dolu)</string>
     <string name="status_bar_battery_style_text">Yazı</string>
     <string name="status_bar_battery_style_hidden">Gizli</string>
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizli (varsayılan)</string>
     <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
     <string name="status_bar_battery_percentage_text_next">Simge yanında</string>
     <string name="left_battery_text_title">Pil metni solda</string>
@@ -102,6 +106,7 @@
     <string name="volume_button_music_control_title">Oynatma kontrolü</string>
     <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Uyarlanabilir oynatma</string>
     <string name="adaptive_playback_enabled">Uyarlanabilir oynatma etkin</string>
     <string name="adaptive_playback_disabled_summary">Kapalı</string>
     <string name="adaptive_playback_intro_text">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
