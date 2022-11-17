@@ -47,6 +47,8 @@
     <string name="three_finger_gesture">Свайп для создания скриншота</string>
     <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания скриншота</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Сменить поставщика услуг резервного копирования</string>
+    <string name="backup_transport_title">Выберите поставщика услуг резервного копирования</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Строка состояния</string>
     <string name="statusbar_custom">Настройки строки состояния</string>
@@ -57,11 +59,18 @@
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Предотвращение случайного включения экрана</string>
+    <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Параметры батареи</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Стиль значка батареи</string>
+    <string name="battery_style_category_summary">Выбрать стиль значка батареи</string>
+    <string name="battery_percent_title">Процент заряда батареи</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Стиль значка батареи</string>
     <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка (по умолчанию)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Горизонтальный значок (справа)</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок (слева)</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_dotted_circle">Круг (Точечный)</string>
     <string name="status_bar_battery_style_filled_circle">Круг (сплошной)</string>
@@ -72,6 +81,8 @@
     <string name="status_bar_battery_percentage_default">Скрыт (по умолчанию)</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
     <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    <string name="left_battery_text_title">Текст батареи слева</string>
+    <string name="left_battery_text_summary">Отображение текста слева от иконки батареи</string>
     <!-- Battery health -->
     <string name="battery_health_title">Состояние батареи</string>
     <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
@@ -80,11 +91,20 @@
     <string name="designed_battery_capacity">Заявленная емкость батареи</string>
     <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Стиль шрифта</string>
     <string name="theme_customization_icon_pack_title">Набор значков</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Маленький значок мобильной сети</string>
+    <string name="use_old_mobiletype_summary">Показывать значок мобильной сети над индикатором сигнала</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Показывать ток зарядки, напряжение, мощность и температуру аккумулятора на экране блокировки во время зарядки</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного пароля или PIN-кода</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
     <string name="adaptive_playback_enabled">Использовать адаптивное воспроизведение</string>
@@ -108,14 +128,41 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
     <string name="face_redo_confirm_btn">Повторить</string>
     <string name="face_redo_warning_msg">Вы хотите удалить существующий снимок лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включён</string>
+    <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
     <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Включить фонарик при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания (более медленный отклик на одно нажатие), отключает двойное нажатие для камеры.</string>
+    <string name="torch_power_button_gesture_dt_toast">Двойной жест для запуска камеры теперь отключен</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания</string>
+    <string name="xperience_gestures">Навигация</string>
+    <string name="button_custom">Жест питания</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Отображать 4G вместо LTE</string>
+    <string name="show_fourg_icon_summary">Заменяет LTE индикатор строки состояния на 4G</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Имя оператора</string>
+    <string name="carrier_label_settings_summary">Настроить имя оператора</string>
+    <string name="custom_carrier_label_title">Пользовательское имя оператора</string>
+    <string name="custom_carrier_label_explain">Введите свое название. Оставьте пустым, чтобы использовать текущее имя сети</string>
+    <string name="custom_carrier_label_notset">Пользовательское имя оператора не установлено</string>
+    <string name="show_carrier_title">Расположение названия оператора</string>
+    <string name="show_carrier_disabled">Отключено</string>
+    <string name="show_carrier_keyguard">Заблокировать экран</string>
+    <string name="show_carrier_statusbar">Строка состояния</string>
+    <string name="show_carrier_enabled">Оба</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
     <!-- Per-app volume -->
     <string name="app_volume">Громкость приложений</string>
     <!-- Immersive Navigation -->
     <string name="gesture_navbar_category_title">Панель навигации</string>
+    <string name="immersive_navigation_title">Полноэкранная навигация</string>
     <string name="immersive_navigation_summary">Скрыть полоску жестов и отступ панели навигации.</string>
     <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">Длина полосы жестов</string>
+    <string name="gesture_navbar_length_preference_short_label">Короткая</string>
+    <string name="gesture_navbar_length_preference_long_label">Длинная</string>
 </resources>
