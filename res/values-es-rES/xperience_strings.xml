@@ -230,4 +230,5 @@
     <string name="ambient_notification_light_color_automatic_title">Color de notificación</string>
     <string name="pulse_ambient_light_color">Al pulsar, usar</string>
     <string name="notification_screen_title">Notificaciones</string>
+    <!-- 4G icon -->
 </resources>
