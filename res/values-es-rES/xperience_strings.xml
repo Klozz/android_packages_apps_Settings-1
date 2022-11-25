@@ -219,4 +219,9 @@
     <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
     <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <!-- Pulse -->
+    <string name="pulse_ambient_light_summary">Ilumina los bordes de la pantalla al recibir una notificación</string>
+    <string name="ambient_notification_light_accent_title">Color de acento del sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Color de notificación</string>
+    <string name="pulse_ambient_light_color">Al pulsar, usar</string>
 </resources>
