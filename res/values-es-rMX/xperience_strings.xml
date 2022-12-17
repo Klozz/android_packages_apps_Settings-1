@@ -233,4 +233,5 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ícono 4G</string>
     <string name="show_fourg_icon_summary">Mostrar icono de 4G en el icono de señal en lugar de LTE</string>
+    <!-- reTicker -->
 </resources>
