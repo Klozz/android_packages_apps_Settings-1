@@ -173,4 +173,7 @@
     <string name="pulse_ambient_light_color">Trong khi sóng nhạc</string>
     <!-- 4G icon -->
     <!-- reTicker -->
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">FOD ở chế độ chờ</string>
+    <string name="screen_off_fod_summary">Giữ trạng thái FOD bật khi màn hình tắt</string>
 </resources>
