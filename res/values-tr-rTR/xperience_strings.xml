@@ -234,4 +234,7 @@
     <string name="show_fourg_icon_title">LTE yerine 4G göster</string>
     <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
     <!-- reTicker -->
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Kapalı ekranda parmak izi</string>
+    <string name="screen_off_fod_summary">Ekran kapalıyken parmak izini açık tutun</string>
 </resources>
