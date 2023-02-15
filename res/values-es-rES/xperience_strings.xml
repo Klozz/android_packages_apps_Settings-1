@@ -239,4 +239,5 @@
     <string name="reticker_landscape_only_summary">Solo activar reTicker cuando el dispositivo está en modo horizontal</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invertir diseño de la barra de navegación</string>
+    <string name="navbar_invert_info">Esto cambiará los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>
 </resources>
