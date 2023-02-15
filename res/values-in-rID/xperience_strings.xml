@@ -231,6 +231,12 @@
     <string name="show_fourg_icon_title">Ikon 4G</string>
     <string name="show_fourg_icon_summary">Tampilkan ikon 4G dalam ikon sinyal, bukan LTE</string>
     <!-- reTicker -->
+    <string name="reticker_title">reTicker\nMemerlukan mulai ulang SistemUI</string>
+    <string name="reticker_summary">Ganti notifikasi Anda dengan versi ticker yang didesain ulang. \nRamping dan tidak terlalu invasif dibandingkan notifikasi standar</string>
+    <string name="reticker_colored_title">Gunakan latar belakang berwarna aplikasi</string>
+    <string name="reticker_colored_summary">Ganti warna latar belakang reTicker menggunakan warna utama notifikasi aplikasi</string>
+    <string name="reticker_landscape_only_title">Hanya lanskap</string>
+    <string name="reticker_landscape_only_summary">Hanya aktifkan reTicker saat perangkat dalam mode lanskap</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
 </resources>
