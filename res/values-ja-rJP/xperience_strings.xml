@@ -140,5 +140,8 @@
     <string name="reticker_summary">通知をデザイン変更されたティッカーに置き換える。\n標準の通知よりもスリムで邪魔にならないデザインです。</string>
     <string name="reticker_colored_title">アプリに色付きの背景を使用</string>
     <string name="reticker_colored_summary">ReTicker の背景の色を通知アプリのメインの色で置き換えます</string>
+    <string name="reticker_landscape_only_title">風景のみ</string>
+    <string name="reticker_landscape_only_summary">端末がランドスケープモードの場合にのみ再ティッカーを有効にする</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_info">ナビゲーションバーの「戻る」ボタンと「戻る」ボタンを入れ替える</string>
 </resources>
