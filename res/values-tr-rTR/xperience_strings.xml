@@ -258,4 +258,5 @@
     <string name="battery_protection_reset_stats_title">Pil istatistiklerini sıfırla</string>
     <string name="battery_protection_reset_stats_summary">Kullanıcı tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırlayın</string>
     <string name="battery_protection_intro_text">Pili korumak ve bozulmasını önlemek için (Pil şarjını %80 ile sınırlar (yukarıdaki ayarlardan değiştirilebilir))</string>
+    <!-- Dashboard categories -->
 </resources>
