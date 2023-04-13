@@ -260,4 +260,6 @@
     <string name="battery_protection_intro_text">Pili korumak ve bozulmasını önlemek için (Pil şarjını %80 ile sınırlar (yukarıdaki ayarlardan değiştirilebilir))</string>
     <!-- Dashboard categories -->
     <!-- Hotspot extras -->
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
 </resources>
