@@ -314,4 +314,5 @@
     <string name="power_menu_animation_rotate">Rotar</string>
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Estilo de reloj en pantalla de bloqueo</string>
+    <string name="theme_customization_lock_clock_summary">Establecer estilo de fuente en el reloj de pantalla de bloqueo</string>
 </resources>
