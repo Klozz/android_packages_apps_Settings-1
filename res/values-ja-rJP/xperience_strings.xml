@@ -98,10 +98,38 @@
     <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
     <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
     <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">ロックスクリーン用時計フォント</string>
+    <string name="theme_customization_lock_clock_summary">LSクロックのフォントスタイルを設定する</string>
+    <string name="xpe_dashboard_device">デバイスについて</string>
+    <string name="xpe_dashboard_account">アカウント</string>
+    <string name="xpe_dashboard_network">インターネット</string>
+    <string name="xpe_dashboard_conectivity">コネクティビティ</string>
+    <string name="xpe_dashboard_display">ディスプレイ</string>
+    <string name="xpe_dashboard_battery">バッテリー</string>
+    <string name="xpe_dashboard_sound">サウンド</string>
+    <string name="xpe_dashboard_apps">アプリ</string>
+    <string name="xpe_dashboard_notif">通知</string>
+    <string name="xpe_dashboard_storage">ストレージ</string>
+    <string name="xpe_dashboard_privacy">プライバシー</string>
+    <string name="xpe_dashboard_location">所在地</string>
+    <string name="xpe_dashboard_security">セキュリティ</string>
+    <string name="xpe_dashboard_accessibility">アクセシビリティ</string>
+    <string name="xpe_dashboard_system">その他</string>
+    <string name="xpe_dashboard_support">サポート</string>
     <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">システムアップデート</string>
+    <string name="xpe_updates_status_updated">アップデートはありません</string>
+    <string name="xpe_updates_status_new">新しいアップデートが利用可能</string>
+    <string name="top_level_connectivity">コネクティビティ</string>
+    <string name="top_level_personalize">パーソナライズ</string>
+    <string name="top_level_accounts">アカウント</string>
+    <string name="top_level_others">その他</string>
     <!-- Volume link notification -->
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">リングボリューム</string>
     <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">UIスタイル</string>
+    <string name="theme_customization_ui_style_summary">インターフェイスにカスタムスタイルを設定する</string>
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">ネットワーク通信量</string>
     <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>
@@ -132,10 +160,23 @@
     <!-- Navbar options -->
     <string name="navbar_invert_info">ナビゲーションバーの「戻る」ボタンと「戻る」ボタンを入れ替える</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">カラーバランス</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">赤の強度</string>
     <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">グリーン強度</string>
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">ブルーストレングス</string>
+    <string name="keywords_color_balance">カラー、カラーバランス、カラーコレクション、レッド、グリーン、ブルー、LiveDisplay</string>
     <!-- Battery Protection-->
+    <string name="battery_protection_title">バッテリー保護</string>
+    <string name="battery_protection_summary">バッテリーの充電を制限して、バッテリーの寿命を延ばす</string>
+    <string name="battery_protection_master_switch_title">バッテリープロテクトを使用する</string>
+    <string name="battery_protection_level_title">充電を停止するバッテリーレベル</string>
+    <string name="battery_protection_resume_level_title">充電を開始するバッテリーレベル</string>
+    <string name="battery_protection_reset_stats_title">バッテリーの統計情報をリセットする</string>
+    <string name="battery_protection_reset_stats_summary">ユーザー定義の充電レベルに達した後、バッテリーの統計情報をリセットします。</string>
+    <string name="battery_protection_intro_text">バッテリーを保護し、劣化を防ぐ（バッテリーの充電量を80％に制限する（上記設定から変更可）</string>
     <!-- Hotspot extras -->
     <!-- reTicker -->
     <string name="reticker_title">reTicker\nSystemUIを再起動する必要があります。</string>
