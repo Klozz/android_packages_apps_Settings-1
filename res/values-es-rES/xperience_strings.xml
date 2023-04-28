@@ -216,7 +216,10 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">Volumen de timbre</string>
     <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Estilo de la Interfaz</string>
+    <string name="theme_customization_ui_style_summary">Establece un estilo personalizado para tu interfaz</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Barra de estado</string>
     <string name="statusbar_custom">Personalizaciones de la barra de estado</string>
