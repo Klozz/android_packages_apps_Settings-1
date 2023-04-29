@@ -274,13 +274,7 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
-    <!-- reTicker -->
-    <string name="reticker_title">reTicker\nSystemUI\'nin yeniden başlatılmasını gerektirir</string>
-    <string name="reticker_summary">Bildirimlerinizi, bildirim çubuğu yazılarının yeniden tasarlanmış haliyle değiştirin!\nStandart bildirimlerden daha zarif ve daha az dikkat dağıtıcıdır</string>
-    <string name="reticker_colored_title">Uygulama rengine göre arkaplan</string>
-    <string name="reticker_colored_summary">ReTicker arkaplan rengini uygulamanın ana rengine göre değiştir</string>
-    <string name="reticker_landscape_only_title">Sadece yatay</string>
-    <string name="reticker_landscape_only_summary">ReTicker\'ı yalnızca cihaz yatay moddayken etkinleştirin</string>
     <!-- Statusbar colored icons -->
     <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>
