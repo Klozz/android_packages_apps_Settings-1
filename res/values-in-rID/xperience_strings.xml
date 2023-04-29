@@ -274,13 +274,7 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
-    <!-- reTicker -->
-    <string name="reticker_title">reTicker\nMemerlukan mulai ulang SistemUI</string>
-    <string name="reticker_summary">Ganti notifikasi Anda dengan versi ticker yang didesain ulang. \nRamping dan tidak terlalu invasif dibandingkan notifikasi standar</string>
-    <string name="reticker_colored_title">Gunakan latar belakang berwarna aplikasi</string>
-    <string name="reticker_colored_summary">Ganti warna latar belakang reTicker menggunakan warna utama notifikasi aplikasi</string>
-    <string name="reticker_landscape_only_title">Hanya lanskap</string>
-    <string name="reticker_landscape_only_summary">Hanya aktifkan reTicker saat perangkat dalam mode lanskap</string>
     <!-- Statusbar colored icons -->
     <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>
