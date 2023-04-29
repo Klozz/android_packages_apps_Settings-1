@@ -178,13 +178,7 @@
     <string name="battery_protection_reset_stats_summary">ユーザー定義の充電レベルに達した後、バッテリーの統計情報をリセットします。</string>
     <string name="battery_protection_intro_text">バッテリーを保護し、劣化を防ぐ（バッテリーの充電量を80％に制限する（上記設定から変更可）</string>
     <!-- Hotspot extras -->
-    <!-- reTicker -->
-    <string name="reticker_title">reTicker\nSystemUIを再起動する必要があります。</string>
-    <string name="reticker_summary">通知をデザイン変更されたティッカーに置き換える。\n標準の通知よりもスリムで邪魔にならないデザインです。</string>
-    <string name="reticker_colored_title">アプリに色付きの背景を使用</string>
-    <string name="reticker_colored_summary">ReTicker の背景の色を通知アプリのメインの色で置き換えます</string>
-    <string name="reticker_landscape_only_title">風景のみ</string>
-    <string name="reticker_landscape_only_summary">端末がランドスケープモードの場合にのみ再ティッカーを有効にする</string>
     <!-- Statusbar colored icons -->
     <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>
