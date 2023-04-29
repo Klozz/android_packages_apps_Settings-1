@@ -288,13 +288,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que los clientes del punto de acceso utilicen las conexiones VPN de este dispositivo\u2019 para la conectividad ascendente</string>
-    <!-- reTicker -->
-    <string name="reticker_title">reTicker\nRequiere reiniciar SystemUI</string>
-    <string name="reticker_summary">¡Reemplaza las notificaciones con una versión rediseñada de la información mostrada! \nDelgada y menos invasiva que la notificación estándar</string>
-    <string name="reticker_colored_title">Usar fondo de color de la aplicación</string>
-    <string name="reticker_colored_summary">Colorear el fondo de la notificación con el color principal de la aplicación</string>
-    <string name="reticker_landscape_only_title">Solo horizontal</string>
-    <string name="reticker_landscape_only_summary">Solo activar reTicker cuando el dispositivo está en modo horizontal</string>
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Iconos coloreados</string>
     <string name="statusbar_colored_icons_summary">Usar iconos de aplicación para las notificaciones en la barra de estado</string>
@@ -313,4 +306,5 @@
     <string name="power_menu_animation_translucent_top">Traslúcida (desde la parte superior)</string>
     <string name="power_menu_animation_translucent_bottom">Translúcido (desde la parte inferior)</string>
     <string name="power_menu_animation_rotate">Rotar</string>
+    <!-- QS Transparency -->
 </resources>
