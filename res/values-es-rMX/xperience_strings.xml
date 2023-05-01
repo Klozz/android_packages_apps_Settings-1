@@ -278,8 +278,11 @@
     <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que los clientes del punto de acceso utilicen las conexiones VPN de este dispositivo\u2019 para la conectividad ascendente</string>
     <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Contador de notificaciones</string>
+    <string name="status_bar_notif_count_summary">Muestra el número de notificaciones pendientes</string>
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Iconos coloreados</string>
+    <string name="statusbar_colored_icons_summary">Usar iconos de aplicación adecuados para los iconos de notificación en la barra de estado</string>
     <string name="animations">Animaciones</string>
     <!-- Power menu Animations -->
     <string name="power_menu_animation_title">Animación de menú de apagado</string>
@@ -296,4 +299,6 @@
     <string name="power_menu_animation_translucent_bottom">Translúcido (desde la parte inferior)</string>
     <string name="power_menu_animation_rotate">Rotar</string>
     <!-- QS Transparency -->
+    <string name="qs_transparency_title">Transparencia del fondo</string>
+    <string name="qs_transparency_summary">Establecer el nivel de transparencia para el fondo de los ajustes rápidos</string>
 </resources>
