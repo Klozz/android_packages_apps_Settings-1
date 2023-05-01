@@ -293,22 +293,6 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
-    <!-- Pulse -->
-    <string name="ambient_light_category">Edge lighting</string>
-    <string name="keywords_pulse_ambient_light_display">notification, notifications, edge, light, colour, color</string>
-    <string name="pulse_ambient_light_text">Edge lighting makes your screen glow when you receive a notification. This makes it easier to figure when you get a pulse while the phone is doze mode.</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_enable">Use Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="ambient_notification_light_accent_title">System accent color</string>
-    <string name="ambient_notification_light_color_automatic_title">Notification color</string>
-    <string name="pulse_ambient_light_color">When pulsing, use</string>
-    <string name="notification_screen_title">Notifications</string>
-
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
-
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
@@ -333,16 +317,23 @@
     <string name="battery_protection_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="battery_protection_intro_text">To protect the battery and prevent it from degrading (Limits the battery charge to 80% (can be changed from the settings above))</string>
 
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Colored icons</string>
-    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in status bar</string>
+    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
 
     <string name="animations">Animations</string>
-
     <!-- Power menu Animations -->
     <string name="power_menu_animation_title">Power menu animation</string>
     <string name="power_menu_animation_dialog_title">Select power menu animation</string>
@@ -358,8 +349,7 @@
     <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
     <string name="power_menu_animation_rotate">Rotate</string>
 
-    <!-- QS Transparency -->
+   <!-- QS Transparency -->
     <string name="qs_transparency_title">Background transparency</string>
     <string name="qs_transparency_summary">Set transparency level for QS background</string>
-
 </resources>
