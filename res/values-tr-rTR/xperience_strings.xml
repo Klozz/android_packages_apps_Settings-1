@@ -289,4 +289,5 @@
     <string name="power_menu_animation_dialog_title">Güç menüsü animasyonunu seçin</string>
     <string name="power_menu_animation_aosp">AOSP (varsayılan)</string>
     <!-- QS Transparency -->
+    <!-- Black theme -->
 </resources>
