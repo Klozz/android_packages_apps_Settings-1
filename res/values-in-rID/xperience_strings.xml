@@ -264,8 +264,8 @@
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
     <!-- Notification count -->
-    <!-- Statusbar colored icons -->
     <!-- Power menu Animations -->
     <!-- QS Transparency -->
     <!-- Black theme -->
+    <!-- Disable 5G in battery saver -->
 </resources>
