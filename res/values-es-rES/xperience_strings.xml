@@ -299,5 +299,9 @@
     <string name="qs_transparency_title">Transparencia del fondo</string>
     <string name="qs_transparency_summary">Establecer el nivel de transparencia para el fondo de los ajustes rápidos</string>
     <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema negro</string>
+    <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
     <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Apagar 5G</string>
+    <string name="battery_saver_5g_summary">Deshabilita 5G para ahorrar energía cuando el Ahorro de Batería está activado</string>
 </resources>
