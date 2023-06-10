@@ -280,9 +280,6 @@
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Bildirim sayısı</string>
     <string name="status_bar_notif_count_summary">Bekleyen bildirim sayısını göster</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Renkli simgeler</string>
-    <string name="statusbar_colored_icons_summary">Durum çubuğundaki bildirim simgeleri için uygun uygulama simgelerini kullanın</string>
     <string name="animations">Animasyonlar</string>
     <!-- Power menu Animations -->
     <string name="power_menu_animation_title">Güç menüsü animasyonu</string>
@@ -290,4 +287,5 @@
     <string name="power_menu_animation_aosp">AOSP (varsayılan)</string>
     <!-- QS Transparency -->
     <!-- Black theme -->
+    <!-- Disable 5G in battery saver -->
 </resources>
