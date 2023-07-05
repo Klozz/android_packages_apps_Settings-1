@@ -222,6 +222,9 @@
     <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
     <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Toca el lector de huellas para desbloquear</string>
+    <string name="fingerprint_wake_unlock_touch">Detectar eventos mientras la pantalla esté apagada</string>
+    <string name="fingerprint_wake_unlock_press">Solo detecta los eventos una vez que la pantalla esté encendida</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invertir diseño de la barra de navegación</string>
     <string name="navbar_invert_info">Esto cambiará los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>
