@@ -257,11 +257,31 @@
     <string name="power_menu_animation_title">Güç menüsü animasyonu</string>
     <string name="power_menu_animation_dialog_title">Güç menüsü animasyonunu seçin</string>
     <string name="power_menu_animation_aosp">AOSP (varsayılan)</string>
+    <string name="power_menu_animation_bottom">Alt</string>
+    <string name="power_menu_animation_top">Üst</string>
+    <string name="power_menu_animation_xylon">Uçarak</string>
+    <string name="power_menu_animation_slide">Kaydırmak</string>
+    <string name="power_menu_animation_turn">Dönerek</string>
+    <string name="power_menu_animation_fly">Parıltı</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Şeffaf (üst)</string>
+    <string name="power_menu_animation_translucent_bottom">Şeffaf (alt)</string>
+    <string name="power_menu_animation_rotate">Döndür</string>
     <!-- QS Transparency -->
+    <string name="qs_transparency_title">Arka plan saydamlığı</string>
+    <string name="qs_transparency_summary">Hızlı ayarlar arka planı için şeffaflık seviyesi ayarla</string>
     <!-- Black theme -->
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
     <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">5G\'yi kapat</string>
+    <string name="battery_saver_5g_summary">Pil Tasarrufu açıkken güç tasarrufu için 5G\'yi devre dışı bırakın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tabletin kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
 </resources>
