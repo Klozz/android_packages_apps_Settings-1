@@ -222,6 +222,9 @@
     <string name="face_unlock_method_default">Ekran açıkken</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Kilidi açmak için parmak izine dokunun</string>
+    <string name="fingerprint_wake_unlock_touch">Ekran kapalıylen etkinlikleri dinler</string>
+    <string name="fingerprint_wake_unlock_press">Olayları yalnızca ekran açıkken dinler</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
     <string name="navbar_invert_info">Gezinme çubuğundaki \"Geri\" ve \"Son Kullanılanlar\" düğmelerini değiştirin</string>
