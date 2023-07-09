@@ -270,9 +270,6 @@
     <string name="power_menu_animation_translucent_top">Traslúcida (desde la parte superior)</string>
     <string name="power_menu_animation_translucent_bottom">Translúcido (desde la parte inferior)</string>
     <string name="power_menu_animation_rotate">Rotar</string>
-    <!-- QS Transparency -->
-    <string name="qs_transparency_title">Transparencia del fondo</string>
-    <string name="qs_transparency_summary">Establecer el nivel de transparencia para el fondo de los ajustes rápidos</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Usar tema negro</string>
     <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
@@ -287,4 +284,24 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Pulsación larga en el sensor de huella para desbloquear el dispositivo</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Para despertar la pantalla y desbloquear, mantén pulsado el sensor de huella digital bajo pantalla.</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicador de batería de la barra de estado</string>
+    <string name="battery_percent_summary">Configurar los iconos y estilos de texto para el indicador de batería de la barra de estado</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Mostrar información de la CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Muestra la información actual del procesador en la pantalla</string>
 </resources>
