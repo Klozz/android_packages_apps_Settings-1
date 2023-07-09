@@ -71,11 +71,23 @@
     <!-- Hotspot extras -->
     <!-- Notification count -->
     <!-- Power menu Animations -->
-    <!-- QS Transparency -->
     <!-- Black theme -->
     <!-- Disable 5G in battery saver -->
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_icon_portrait">Ikona pionowo</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Ukryte</string>
+    <string name="status_bar_battery_percentage_title">Procenty baterii na pasku statusu</string>
+    <string name="status_bar_battery_percentage_default">Ukryte</string>
+    <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Pokaż informacje o CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Nakładka pokazująca bieżące wykorzystanie CPU</string>
 </resources>
