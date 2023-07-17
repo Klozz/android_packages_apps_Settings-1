@@ -46,6 +46,13 @@
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="true" />
 
+
+    <mx.xperience.framework.preference.SystemSettingSwitchPreference
+        android:key="statusbar_colored_icons"
+        android:title="@string/statusbar_colored_icons_title"
+        android:summary="@string/statusbar_colored_icons_summary"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:key="animaitons"
         android:title="@string/animations" >
@@ -67,4 +74,5 @@
         android:defaultValue="false" />
 
     </PreferenceCategory>
+
 </PreferenceScreen>
