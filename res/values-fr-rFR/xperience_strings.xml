@@ -80,9 +80,6 @@
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Statusbar colored icons -->
     <!-- Battery Styles -->
-    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Afficher les infos CPU</string>
-    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Superposition d\'écran montrant les infos CPU actuelles</string>
 </resources>
