@@ -285,6 +285,8 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Para despertar la pantalla y desbloquear, mantén pulsado el sensor de huella digital bajo pantalla.</string>
     <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Iconos coloreados</string>
+    <string name="statusbar_colored_icons_summary">Usar iconos de aplicación para las notificaciones en la barra de estado</string>
     <!-- Battery Styles -->
     <string name="battery_percent_title">Indicador de batería de la barra de estado</string>
     <string name="battery_percent_summary">Configurar los iconos y estilos de texto para el indicador de batería de la barra de estado</string>
@@ -303,6 +305,8 @@
     <string name="status_bar_battery_style_icon_landscape_buddy">Cápsula horizontal</string>
     <string name="status_bar_battery_style_icon_landscape_ios15">Ícono horizontal iOS 15</string>
     <string name="status_bar_battery_style_icon_landscape_ios16">Ícono horizontal iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Origami</string>
+    <string name="status_bar_battery_style_icon_landscape_miui_pill">MIUI</string>
     <string name="status_bar_battery_style_circle">Circulo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
     <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
