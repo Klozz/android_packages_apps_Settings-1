@@ -284,6 +284,7 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Pulsación larga en el sensor de huella para desbloquear el dispositivo</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Para despertar la pantalla y desbloquear, mantén pulsado el sensor de huella digital bajo pantalla.</string>
+    <!-- Statusbar colored icons -->
     <!-- Battery Styles -->
     <string name="battery_percent_title">Indicador de batería de la barra de estado</string>
     <string name="battery_percent_summary">Configurar los iconos y estilos de texto para el indicador de batería de la barra de estado</string>
@@ -295,26 +296,20 @@
     <string name="status_bar_battery_style_icon_landscape_style_a">Ícono horizontal estilo A (Izquierda)</string>
     <string name="status_bar_battery_style_icon_rlandscape_style_b">Ícono horizontal estilo B (Derecha)</string>
     <string name="status_bar_battery_style_icon_landscape_style_b">Ícono horizontal estilo B (Izquierda)</string>
-    <string name="status_bar_battery_style_icon_landscape_ios15">Ícono horizontal iOS 15</string>
-    <string name="status_bar_battery_style_icon_landscape_ios16">Ícono horizontal iOS 16</string>
     <string name="status_bar_battery_style_icon_landscape_pill">Vertical Mx</string>
     <string name="status_bar_battery_style_icon_landscape_line">Horizontal Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Vertical iOS</string>
     <string name="status_bar_battery_style_icon_landscape_signal">Horizontal Airoo</string>
     <string name="status_bar_battery_style_icon_landscape_buddy">Cápsula horizontal</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Ícono horizontal iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Ícono horizontal iOS 16</string>
     <string name="status_bar_battery_style_circle">Circulo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
     <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
-    <string name="status_bar_battery_style_big_circle">Gran círculo</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Gran círculo punteado</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
     <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
-    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Mostrar información de la CPU</string>
-    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Muestra la información actual del procesador en la pantalla</string>
 </resources>
