@@ -214,6 +214,7 @@
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Statusbar colored icons -->
     <!-- Battery Styles -->
     <string name="battery_percent_title">Индикатор батареи в строке состояния</string>
     <string name="battery_percent_summary">Настройте стиль значка и текста для индикатора батареи в строке состояния</string>
@@ -230,8 +231,4 @@
     <string name="status_bar_battery_percentage_default">Не показывать</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
     <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
-    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Показывать информацию о CPU</string>
-    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Показывать поверх экрана информацию о процессоре</string>
 </resources>
