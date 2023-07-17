@@ -77,6 +77,7 @@
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Statusbar colored icons -->
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_icon_portrait">Pictogramă portret</string>
     <string name="status_bar_battery_style_circle">Cerc</string>
@@ -86,8 +87,4 @@
     <string name="status_bar_battery_percentage_default">Ascuns</string>
     <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
     <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
-    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Arată informațiile CPU-lui</string>
-    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Suprapunerea de ecran afişează informația curentă a CPU</string>
 </resources>
