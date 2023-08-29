@@ -16,38 +16,88 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Version de XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Nom de code XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About to show Device name -->
+    <string name="about_device_name">Appareil</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Afficher les options pour le mode recovery et le mode bootloader dans le menu d\'alimentation</string>
     <!-- Refresh rate -->
     <!-- Volume link notification -->
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Glisser pour prendre une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Balayez vers le bas avec trois doigts pour prendre une capture d’écran</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Changer de fournisseur de sauvegarde</string>
+    <string name="backup_transport_title">Sélectionner un fournisseur de sauvegarde</string>
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Débit réseau</string>
     <string name="network_traffic_state_summary">Afficher l\'activité réseau dans la barre d\'état</string>
     <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
+    <string name="proximity_wake_summary">Vérifier le capteur de proximité avant d\'allumer l\'écran</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Paramètres de la batterie</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Style de la batterie</string>
+    <string name="battery_style_category_summary">Sélectionner les styles d\'icônes de la batterie</string>
+    <string name="battery_percent_title">Pourcentage de la batterie</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_icon_rlandscape">Icône paysage (droite)</string>
+    <string name="status_bar_battery_style_icon_landscape">Icône paysage (gauche)</string>
     <!-- Status bar - Battery percentage -->
+    <string name="left_battery_text_title">Texte de la batterie à gauche</string>
+    <string name="left_battery_text_summary">Mettre le texte batterie à gauche de l\'icône batterie</string>
     <!-- Battery health -->
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Style de police</string>
+    <string name="theme_customization_icon_pack_title">Pack d\'icônes</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Petite icône pour le réseau mobile</string>
+    <string name="use_old_mobiletype_summary">Affiche l\'icône de réseau mobile au-dessus de l\'indicateur de signal</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informations de charge sur l\'écran de verrouillage</string>
+    <string name="lockscreen_battery_info_summary">Afficher l\'intensité, la puissance, la tension et la température de la batterie sur l\'écran de verrouillage pendant la charge</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Dévérouiller automatiquement lorsque le PIN/mot de passe est correct</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Contrôle de lecture</string>
+    <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume permet de changer des pistes musicales</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_enabled">Utiliser la lecture adaptative</string>
+    <string name="adaptive_playback_intro_text">Mettre automatiquement les médias en pause lorsque le volume est éteint et reprendre automatiquement lorsque le volume est restauré dans le délai défini.</string>
     <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
+    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
     <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Allumer/éteindre la lampe de poche lorsque l\'écran est éteint</string>
+    <string name="torch_power_button_gesture_none">Désactivé</string>
+    <string name="torch_power_button_gesture_dt">Appui double sur le bouton d\'alimentation (réponse plus lente par appui simple), Désactive l\'appui double pour la caméra.</string>
+    <string name="torch_power_button_gesture_dt_toast">Le geste de la caméra est maintenant désactivé</string>
+    <string name="torch_power_button_gesture_lp">Appui prolongé sur le bouton Marche/Arrêt</string>
+    <string name="xperience_gestures">Geste du bouton</string>
+    <string name="button_custom">Geste de lampe de poche</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Afficher 4G au lieu de LTE</string>
+    <string name="show_fourg_icon_summary">Remplacer l\'indicateur LTE avec 4G</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Nom de l\'opérateur</string>
+    <string name="carrier_label_settings_summary">Personaliser le nom de l\'opérateur</string>
+    <string name="custom_carrier_label_title">Personnaliser le nom de l\'opérateur</string>
+    <string name="custom_carrier_label_explain">Saisir manuellement un nom. Laissez vide pour utiliser celui diffuser par votre réseau mobile</string>
+    <string name="custom_carrier_label_notset">Nom d\'opérateur personnalisée non défini</string>
+    <string name="show_carrier_title">Emplacement du nom de l\'opérateur</string>
+    <string name="show_carrier_disabled">Désactivé</string>
+    <string name="show_carrier_keyguard">Écran de verrouillage</string>
     <!-- Navbar options -->
     <!-- Per-app volume -->
     <!-- Immersive Navigation -->
