@@ -16,42 +16,114 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versão XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Codinome XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About to show Device name -->
+    <string name="about_device_name">Dispositivo</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <!-- DC Dimming -->
+    <string name="dc_dimming_title">Anti-oscilação</string>
+    <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz, minimizando a oscilação da tela. Pode resultar em qualidade de imagem reduzida e produção de cores ruim ou maior consumo de energia.</string>
+    <string name="dc_dimming_main_switch_title">Modo anti-oscilação</string>
+    <string name="keywords_display_dc_dimming">anti cintilação, anti flicker, proteção para os olhos</string>
     <!-- FastCharge feature -->
+    <string name="fast_charging_title">Carregamento rápido</string>
+    <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
     <!-- Battery health -->
     <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar o discador</string>
     <!-- Refresh rate -->
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localize o sensor de impressão digital na parte traseira do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localize o sensor de impressão digital na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localize o sensor de impressão digital na parte de trás do smartphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localize o sensor de impressão digital na lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localize o sensor de impressão digital na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toque no sensor na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toque no sensor na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Toque no sensor na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Toque no sensor na parte traseira do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Toque no sensor na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Toque no sensor na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toque no sensor na lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toque no sensor na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toque no sensor na parte lateral do seu telefone.</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções para recovery e bootloader no menu de energia</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslize para capturar a tela</string>
+    <string name="three_finger_gesture_summary">Deslizar 3 dedos para capturar tela</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">Evitar despertar acidental</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela com dois toques</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibrações em chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar ao esperar chamada</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
     <!-- Screen Off animation -->
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Temas</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Formato do ícone</string>
+    <string name="theme_customization_icon_shape_summary">Configure o formato dos ícones do sistema</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Título / Fonte do sistema</string>
+    <string name="theme_customization_font_summary">Configure o estilo das fontes do sistema</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Estilo dos ícones</string>
+    <string name="theme_customization_icon_pack_summary">Escolha um tipo de ícones personalizados para o sistema</string>
     <!-- custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Estilo do ícone do sinal</string>
+    <string name="theme_customization_signal_icon_summary">Definir ícone de rede móvel personalizado</string>
     <!-- custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Estilo do ícone Wi-Fi</string>
+    <string name="theme_customization_wifi_icon_summary">Definir ícone de wi-fi personalizado</string>
     <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidade ao toque</string>
+    <string name="high_touch_sensitivity_summary">Aumenta a sensibilidade da tela para ser usada com luvas</string>
     <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Flutuar o dedo na tela</string>
+    <string name="touchscreen_hovering_summary">Permite que você flutue o dedo na tela como um mouse em navegadores web, desktops remotos, etc</string>
     <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Melhorar sensibilidade de toque</string>
+    <string name="high_touch_polling_rate_summary">Aumentar a sensibilidade ao tocar na tela</string>
     <!-- Per-app volume control -->
+    <string name="app_volume">Volume do aplicativo</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
+    <string name="volume_dialog_category">Diálogo do volume</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
+    <string name="adaptive_playback_enabled">Usar reprodução adaptável</string>
+    <string name="adaptive_playback_intro_text">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido.</string>
     <!-- Status bar Icon Manager -->
     <!-- Gaming mode -->
+    <string name="gaming_mode_title">Espaço de jogo</string>
+    <string name="gaming_mode_summary">Recursos extras para uma experiência imersiva nos jogos</string>
     <!-- Game Space -->
+    <string name="game_space_title">Espaço de jogo</string>
+    <string name="game_space_summary">Melhore sua experiência em jogos</string>
     <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Mostrar atalho do Painel de Jogo nos jogos</string>
+    <string name="game_dashboard_always_on_title">Painel de Jogos</string>
+    <string name="game_dashboard_dnd_rule_name">Jogos</string>
+    <string name="game_dashboard_dnd_summary">Seja notificado apenas por pessoas e aplicativos importantes quando estiver jogando</string>
+    <string name="game_dashboard_dnd_title">Modo Não Perturbe para jogos</string>
     <!-- UI -->
+    <string name="xperience_ui_title">XPerience ui</string>
+    <string name="ui_custom">Temas e personalização</string>
     <!-- Custom Fonts -->
     <!-- Dashboard categories -->
     <!-- UI styles -->
@@ -79,8 +151,14 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <!-- Statusbar colored icons -->
     <!-- Battery Styles -->
+    <string name="battery_percent_title">Porcentagem da bateria</string>
+    <string name="battery_percent_summary">Configure os estilos do ícone e texto para o indicador de bateria na barra de status</string>
     <string name="status_bar_battery_style_icon_portrait">Ícone em retrato</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ícone paisagem (Direita)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícone paisagem (esquerda)</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo pontilhado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo preenchido</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
     <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
