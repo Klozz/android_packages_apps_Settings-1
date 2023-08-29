@@ -16,23 +16,35 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Alterar provedor de backup</string>
+    <string name="backup_transport_title">Selecione o provedor de backup</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forçado</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">Versão XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">Codinome XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Dispositivo</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total de memória RAM</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Carregamento rápido</string>
     <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Depuração como superusuário</string>
+    <string name="adb_enable_summary_root">Permitir a depuração do Android como superusuário</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
@@ -54,21 +66,83 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toque no sensor na lateral do seu dispositivo.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toque no sensor na parte lateral do seu telefone.</string>
     <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Leitura de digital na tela com o display desligado</string>
+    <string name="screen_off_fod_summary">Permitir o uso do desbloqueio por impressão digital com a tela desligada</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Habilitar opções de reinicialização</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar opções para recovery e bootloader no menu de energia</string>
     <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Gerenciador de ícones</string>
+    <string name="icon_manager_summary">Controlar a visibilidade de ícones da barra de status</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra de status</string>
+    <string name="statusbar_custom">Personalizações da Barra de status</string>
+    <string name="network_traffic_state_title">Tráfego de rede</string>
+    <string name="network_traffic_state_summary">Mostrar a atividade da rede na barra de status</string>
+    <string name="network_traffic_autohide_threshold_title">Limite para ocultar automaticamente a atividade de rede (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar setas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar as setas dos indicadores de tráfego</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Saúde da bateria</string>
+    <string name="battery_health_summary">Monitore a saúde da bateria do seu dispositivo</string>
+    <string name="current_battery_capacity">Capacidade atual da bateria</string>
+    <string name="current_battery_capacity_summary">A capacidade atual de bateria medida pelo kernel</string>
+    <string name="designed_battery_capacity">Capacidade de bateria definida</string>
+    <string name="designed_battery_capacity_summary">A capacidade de bateria projetada pelo fabricante</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de navegação</string>
+    <string name="immersive_navigation_title">Barra de navegação imersiva</string>
+    <string name="immersive_navigation_summary">Ocultar a pílula de gestos e barra de navegação.</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslize para capturar a tela</string>
     <string name="three_finger_gesture_summary">Deslizar 3 dedos para capturar tela</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover o escaneamento facial existente e criar um novo?</string>
+    <string name="face_unlock_method_title">Permitir o desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
+    <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
+    <string name="xperience_gestures">Estilo de botão</string>
+    <string name="button_custom">Gesto de lanterna</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Mostrar 4G em vez de LTE</string>
+    <string name="show_fourg_icon_summary">Substituir o indicador de rede LTE por 4G</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Ícones de redes móveis pequenos</string>
+    <string name="use_old_mobiletype_summary">Mostrar o ícone do tipo móvel no topo do indicador de sinal</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Pixels inteligentes é um recurso de economia de energia. Dependendo de quantos pixels você decidir desativar, você poderia ver a melhoria de vida da bateria.</string>
+    <string name="smart_pixels_title">Pixels Inteligentes</string>
+    <string name="smart_pixels_summary">Poupa bateria ao desligar alguns pixeis</string>
+    <string name="smart_pixels_enable_title">Ativar Pixels Inteligentes</string>
+    <string name="smart_pixels_enable_summary">Desliga alguns pixels para reduzir o consumo de energia</string>
+    <string name="smart_pixels_on_power_save_title">Ativar automaticamente no modo de economia de bateria</string>
+    <string name="smart_pixels_on_power_save_summary">Ativa os Pixels Inteligentes quando a economia de bateria estiver ativa</string>
+    <string name="smart_pixels_percent">Porcentagem de pixels a desativar</string>
+    <string name="smart_pixels_shift_title">Proteção contra Burn-in</string>
+    <string name="smart_pixels_shift_summary">Impede burn-in em dispositivos OLED, deslocando pixels de vez em quando</string>
+    <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_15secs">15 segundos</string>
+    <string name="custom_timeout_summary_30secs">30 segundos</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_2mins">2 minutos</string>
+    <string name="custom_timeout_summary_5mins">5 minutos</string>
+    <string name="custom_timeout_summary_10mins">10 minutos</string>
+    <string name="custom_timeout_summary_20mins">20 minutos</string>
+    <string name="custom_timeout_summary_30mins">30 minutos</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="custom_timeout_summary_2hours">2 horas</string>
+    <string name="custom_timeout_summary_4hours">4 horas</string>
+    <string name="custom_timeout_summary_8hours">8 horas</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animação ao desligar tela</string>
+    <string name="screen_off_animation_default">Padrão</string>
+    <string name="screen_off_animation_scale">Escala</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Espaço de jogo</string>
     <string name="gaming_mode_summary">Recursos extras para uma experiência imersiva nos jogos</string>
@@ -88,9 +162,19 @@
     <string name="dc_dimming_title">Anti-oscilação</string>
     <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz, minimizando a oscilação da tela. Pode resultar em qualidade de imagem reduzida e produção de cores ruim ou maior consumo de energia.</string>
     <string name="dc_dimming_main_switch_title">Modo anti-oscilação</string>
+    <string name="dc_dimming_auto_mode_title">Programar</string>
+    <string name="dc_dimming_mode_brightness">Ligue quando o brilho estiver abaixo do limite</string>
+    <string name="dc_dimming_mode_full">Depende de tempo e brilho</string>
+    <string name="dc_dimming_brightness_title">Limite de brilho</string>
+    <string name="dc_dimming_brightness_summary">Ative o Anti-oscilação apenas quando o brilho médio estiver abaixo do limite</string>
+    <string name="dc_dimming_restore_auto_mode">Modo de restauração automático</string>
+    <string name="dc_dimming_off_auto_mode_auto">Será ativado automaticamente</string>
+    <string name="dc_dimming_on_auto_mode_auto">Será desativado automaticamente</string>
+    <string name="keywords_display_dc_dimming">Anti-oscilação, piscar, olho, cansaço</string>
     <!-- Battery Styles -->
     <string name="battery_percent_title">Porcentagem da bateria</string>
     <string name="battery_percent_summary">Configure os estilos do ícone e texto para o indicador de bateria na barra de status</string>
+    <string name="status_bar_battery_style_title">Estilo da bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Ícone em retrato</string>
     <string name="status_bar_battery_style_icon_rlandscape">Ícone paisagem (Direita)</string>
     <string name="status_bar_battery_style_icon_landscape">Ícone paisagem (esquerda)</string>
