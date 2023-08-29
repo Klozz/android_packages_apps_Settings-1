@@ -17,32 +17,69 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <!-- SELinux Status -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versão XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Codinome XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About to show Device name -->
+    <string name="about_device_name">Dispositivo</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <!-- FastCharge feature -->
+    <string name="fast_charging_title">Carregamento rápido</string>
+    <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
     <!-- Android debugging as root -->
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localize o sensor de impressão digital na parte traseira do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localize o sensor de impressão digital na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localize o sensor de impressão digital na parte de trás do smartphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localize o sensor de impressão digital na lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localize o sensor de impressão digital na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toque no sensor na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toque no sensor na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Toque no sensor na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Toque no sensor na parte traseira do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Toque no sensor na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Toque no sensor na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toque no sensor na lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toque no sensor na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toque no sensor na parte lateral do seu telefone.</string>
     <!-- Screen off FOD -->
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções para recovery e bootloader no menu de energia</string>
     <!-- Status bar Icon Manager -->
     <!-- Statusbar net monitor -->
     <!-- Battery health -->
     <!-- Immersive Navigation -->
     <!-- Refresh rate -->
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Deslize para capturar a tela</string>
+    <string name="three_finger_gesture_summary">Deslizar 3 dedos para capturar tela</string>
     <!-- Face Unlock -->
     <!-- Show LTE/4G switch -->
     <!-- Old mobile type icons -->
     <!-- Smart Pixels -->
     <!-- Screen Off animation -->
     <!-- Gaming mode -->
+    <string name="gaming_mode_title">Espaço de jogo</string>
+    <string name="gaming_mode_summary">Recursos extras para uma experiência imersiva nos jogos</string>
     <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Mostrar atalho do Painel de Jogo nos jogos</string>
+    <string name="game_dashboard_always_on_title">Painel de Jogos</string>
+    <string name="game_dashboard_dnd_rule_name">Jogos</string>
+    <string name="game_dashboard_dnd_summary">Seja notificado apenas por pessoas e aplicativos importantes quando estiver jogando</string>
+    <string name="game_dashboard_dnd_title">Modo Não Perturbe para jogos</string>
     <!-- Game Space -->
+    <string name="game_space_title">Espaço de jogo</string>
+    <string name="game_space_summary">Melhore sua experiência em jogos</string>
     <!-- UI -->
+    <string name="xperience_ui_title">XPerience ui</string>
+    <string name="ui_custom">Temas e personalização</string>
 </resources>
