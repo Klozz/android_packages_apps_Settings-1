@@ -15,55 +15,154 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forçado</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">Versão XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">Codinome XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Dispositivo</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total de memória RAM</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Habilitar opções de reinicialização</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar opções para recovery e bootloader no menu de energia</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar taxa de atualização da tela de 60hz para economizar energia quando o modo economia de bateria estiver ativado</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslize para capturar a tela</string>
     <string name="three_finger_gesture_summary">Deslizar 3 dedos para capturar tela</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Alterar provedor de backup</string>
+    <string name="backup_transport_title">Selecione o provedor de backup</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra de status</string>
+    <string name="statusbar_custom">Personalizações da Barra de status</string>
+    <string name="network_traffic_state_title">Tráfego de rede</string>
+    <string name="network_traffic_state_summary">Mostrar a atividade da rede na barra de status</string>
+    <string name="network_traffic_autohide_threshold_title">Limite para ocultar automaticamente a atividade de rede (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar setas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar as setas dos indicadores de tráfego</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Evitar despertar acidental</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Configurações da bateria</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Estilo do ícone da bateria</string>
+    <string name="battery_style_category_summary">Alterar estilo do ícone de bateria</string>
+    <string name="battery_percent_title">Porcentagem da bateria</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Estilo da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone retrato (padrão)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ícone paisagem (direito)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícone paisagem (esquerdo)</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Preenchido)</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
     <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+    <string name="left_battery_text_title">Texto da bateria no lado esquerdo</string>
+    <string name="left_battery_text_summary">Mostrar a percentagem da bateria à esquerda do ícone</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Saúde da bateria</string>
+    <string name="battery_health_summary">Monitore a saúde da bateria do seu dispositivo</string>
+    <string name="current_battery_capacity">Capacidade atual da bateria</string>
+    <string name="current_battery_capacity_summary">A capacidade atual de bateria medida pelo kernel</string>
+    <string name="designed_battery_capacity">Capacidade de bateria definida</string>
+    <string name="designed_battery_capacity_summary">A capacidade de bateria projetada pelo fabricante</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Estilo da fonte</string>
     <string name="theme_customization_icon_pack_title">Estilo dos ícones</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Ícones de redes móveis pequenos</string>
+    <string name="use_old_mobiletype_summary">Mostrar o ícone do tipo móvel no topo do indicador de sinal</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informações de carregamento na tela de bloqueio</string>
+    <string name="lockscreen_battery_info_summary">Mostra informações de carregamento na tela de bloqueio ( consumo, volts e temperatura )</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/senha for digitado corretamente</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
     <string name="adaptive_playback_enabled">Usar reprodução adaptável</string>
+    <string name="adaptive_playback_disabled_summary">Desligado</string>
     <string name="adaptive_playback_intro_text">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido.</string>
+    <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
+    <string name="adaptive_playback_timeout_none_summary">Ligado (sem limite)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ligado (5 minuto)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover o escaneamento facial existente e criar um novo?</string>
+    <string name="face_unlock_method_title">Permitir o desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
+    <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
     <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ligar/desligar a lanterna quando a tela estiver desligada</string>
+    <string name="torch_power_button_gesture_none">Desabilitado</string>
+    <string name="torch_power_button_gesture_dt">Dois toques no botão liga/desliga (o toque duplo para a câmera ficará indisponível).</string>
+    <string name="torch_power_button_gesture_dt_toast">O gesto de pular para a câmera agora está desativado</string>
+    <string name="torch_power_button_gesture_lp">Toque longo no botão de energia</string>
+    <string name="xperience_gestures">Estilo de botão</string>
+    <string name="button_custom">Gesto de lanterna</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Mostrar 4G em vez de LTE</string>
+    <string name="show_fourg_icon_summary">Substituir o indicador de rede LTE por 4G</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Nome da operadora</string>
+    <string name="carrier_label_settings_summary">Personalizar nome de operadora</string>
+    <string name="custom_carrier_label_title">Personalizar nome de operadora</string>
+    <string name="custom_carrier_label_explain">Insira um nome de operadora personalizado. Deixe em branco para usar o seu nome de operadora padrão</string>
+    <string name="custom_carrier_label_notset">Nome personalizado não definido</string>
+    <string name="show_carrier_title">Localização do nome da operadora</string>
+    <string name="show_carrier_disabled">Desabilitado</string>
+    <string name="show_carrier_keyguard">Reiniciar o dispositivo, se ele não bloquear a tela após conceder permissões necessárias e ativar o serviço</string>
+    <string name="show_carrier_statusbar">Barra de status</string>
+    <string name="show_carrier_enabled">Os dois</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter os botões da barra de navegação</string>
     <!-- Per-app volume -->
     <string name="app_volume">Volume do aplicativo</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de navegação</string>
+    <string name="immersive_navigation_title">Barra de navegação imersiva</string>
+    <string name="immersive_navigation_summary">Ocultar a pílula de gestos e barra de navegação.</string>
     <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">Duração da pílula</string>
+    <string name="gesture_navbar_length_preference_short_label">Curta</string>
+    <string name="gesture_navbar_length_preference_long_label">Longo</string>
 </resources>
