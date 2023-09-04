@@ -316,4 +316,7 @@
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <!--udfps-->
+    <!-- Udfps animations -->
+    <!-- Udfps icon picker -->
 </resources>
