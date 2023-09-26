@@ -31,6 +31,7 @@
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Gesamter Arbeitsspeicher</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät beim Laden erzeugte Wärme zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
@@ -53,6 +54,8 @@
     <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Ein/Aus-Menü anzeigen</string>
     <!-- Status bar Icon Manager -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Netzwerkaktivität</string>
+    <string name="network_traffic_state_summary">Zeige Netzwerkaktivität in Statusleiste</string>
     <!-- Battery health -->
     <!-- Immersive Navigation -->
     <string name="gesture_navbar_category_title">Navigationsleiste</string>
@@ -74,6 +77,8 @@
     <string name="use_old_mobiletype_summary">Symbol des Mobilfunk-Typs oberhalb des Signalstärke-Symbols anzeigen</string>
     <!-- Smart Pixels -->
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Bildschirm-aus Animation</string>
+    <string name="screen_off_animation_scale">Skalierung</string>
     <!-- Gaming mode -->
     <!-- Game -->
     <!-- Game Space -->
