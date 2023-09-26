@@ -21,6 +21,7 @@
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Gesamter Arbeitsspeicher</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Global Actions -->
     <!-- Adaptive Playback -->
@@ -28,10 +29,14 @@
     <!-- Ambien music ticker -->
     <!-- QS Headers -->
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Bildschirm-aus Animation</string>
+    <string name="screen_off_animation_scale">Skalierung</string>
     <!-- Status bar Icon Manager -->
     <!-- Smart Pixels -->
     <!-- Statusbar configs -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Netzwerkaktivität</string>
+    <string name="network_traffic_state_summary">Zeige Netzwerkaktivität in Statusleiste</string>
     <!-- Battery health -->
     <!-- Face Unlock -->
     <!--Battery Icon selection-->
@@ -51,6 +56,10 @@
     <!-- Notification sound -->
     <!-- Min refresh rate -->
     <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Suche den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> deines Geräts.</string>
     <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">zurück</string>
+    <string name="security_settings_fingerprint_sensor_location_left">linke Seite</string>
+    <string name="security_settings_fingerprint_sensor_location_right">rechte Seite</string>
     <!-- Inverted navbar layout -->
 </resources>
