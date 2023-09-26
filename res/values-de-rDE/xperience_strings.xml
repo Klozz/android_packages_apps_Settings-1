@@ -26,6 +26,7 @@
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Gesamter Arbeitsspeicher</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Ein/Aus-Menü anzeigen</string>
     <!-- Refresh rate -->
@@ -37,6 +38,8 @@
     <string name="backup_transport_setting_label">Backup-Anbieter ändern</string>
     <string name="backup_transport_title">Backup-Anbieter auswählen</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Netzwerkaktivität</string>
+    <string name="network_traffic_state_summary">Zeige Netzwerkaktivität in Statusleiste</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
     <string name="proximity_wake_summary">Näherungssensor verwenden, um ein unbeabsichtigtes Aufwecken des Geräts zu vermeiden</string>
