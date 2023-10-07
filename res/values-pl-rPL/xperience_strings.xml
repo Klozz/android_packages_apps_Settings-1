@@ -35,7 +35,13 @@
     <!-- Battery health -->
     <!-- Face Unlock -->
     <!--Battery Icon selection-->
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Ukryte</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Procenty baterii na pasku statusu</string>
+    <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
     <!-- SELinux Status -->
     <!-- Lock screen double tap -->
     <!-- App details: open play store link if app is user installed -->

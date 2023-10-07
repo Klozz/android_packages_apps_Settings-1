@@ -32,6 +32,9 @@
     <!-- Smart Pixels -->
     <!-- Statusbar configs -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Débit réseau</string>
+    <string name="network_traffic_state_summary">Afficher l\'activité réseau dans la barre d\'état</string>
+    <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
     <!-- Battery health -->
     <!-- Face Unlock -->
     <!--Battery Icon selection-->
@@ -45,6 +48,11 @@
     <!-- Notification sound -->
     <!-- Min refresh rate -->
     <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Repérez le capteur d’empreintes digitales sur <xliff:g id="sensor_location">%1$s </xliff:g> de votre téléphone.</string>
     <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">retour</string>
+    <string name="security_settings_fingerprint_sensor_location_front">avant</string>
+    <string name="security_settings_fingerprint_sensor_location_left">côté gauche</string>
+    <string name="security_settings_fingerprint_sensor_location_right">côté droit</string>
     <!-- Inverted navbar layout -->
 </resources>

@@ -15,36 +15,159 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_firmware_version">Versão XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_build_code">Codinome XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_caf_number">CAF Filial</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total de memória RAM</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Habilitar opções de reinicialização</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções para recuperação e bootloader</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
+    <string name="adaptive_playback_disabled_summary">Desligado</string>
+    <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
+    <string name="adaptive_playback_timeout_none_summary">Ligado (sem limite)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ligado (5 minuto)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
     <!-- Horizon Light -->
+    <string name="pulse_ambient_light_title">Notificações de borda</string>
+    <string name="pulse_ambient_light_summary">Ilumina as bordas laterais da tela no pulso de notificação</string>
+    <string name="ambient_notification_light_accent_title">Cor de destaque do sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Cor da notificação</string>
+    <string name="pulse_ambient_light_color">Durante o pulso, usar</string>
     <!-- Ambien music ticker -->
+    <string name="pulse_on_new_tracks_title">Ícone de Música em Ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar a tela ambiente quando uma nova música for tocada. Toque duas vezes na informação da música para pular para a próxima faixa.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Mostrar a tela ambiente quando uma nova música for reproduzida</string>
     <!-- QS Headers -->
+    <string name="qsheader_title">Cabeçalho das configurações rápidas</string>
+    <string name="status_bar_custom_header_title">Habilitar</string>
+    <string name="daylight_header_pack_title">Pacotes de imagens do cabeçalho</string>
+    <string name="status_bar_custom_header_shadow_title">Sombra da imagem do cabeçalho</string>
+    <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade nas imagens claras</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">Estático</string>
+    <string name="daylight_header_provider_title">Dinâmico</string>
+    <string name="custom_header_provider_title">Provedor de cabeçalho</string>
+    <string name="custom_header_browse_title">Procurar cabeçalhos instalados</string>
+    <string name="custom_header_browse_summary">Clique em qualquer imagem para usar no modo estático</string>
+    <string name="custom_header_browse_summary_new">Procure todos os pacotes de cabeçalho disponíveis</string>
+    <string name="custom_header_pick_title">Selecionar imagem do cabeçalho</string>
+    <string name="custom_header_pick_summary">Selecione uma imagem para usar no modo estático</string>
+    <string name="style_enabled_summary">A imagem de cabeçalho personalizada está ativada</string>
+    <string name="style_disabled_summary">Imagem de cabeçalho personalizado está desativado</string>
+    <string name="header_provider_disabled">Desabilitado</string>
+    <string name="custom_header_title">Cabeçalho personalizado</string>
+    <string name="file_header_select_title">Escolher imagem do armazenamento</string>
+    <string name="file_header_select_summary">Selecione uma imagem do armazenamento interno</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animação ao desligar tela</string>
+    <string name="screen_off_animation_default">Padrão</string>
+    <string name="screen_off_animation_scale">Escala</string>
     <!-- Status bar Icon Manager -->
+    <string name="status_bar_title">Barra de status</string>
+    <string name="icon_manager_title">Gerenciador de ícones</string>
+    <string name="icon_manager_summary">Controlar a visibilidade de ícones da barra de status</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Pixels Inteligentes</string>
+    <string name="smart_pixels_summary">Poupa bateria ao desligar alguns pixeis</string>
+    <string name="smart_pixels_enable_title">Ativar Pixels Inteligentes</string>
+    <string name="smart_pixels_enable_summary">Desliga alguns pixels para reduzir o consumo de energia</string>
+    <string name="smart_pixels_on_power_save_title">Ativar automaticamente no modo de economia de bateria</string>
+    <string name="smart_pixels_on_power_save_summary">Ativa os Pixels Inteligentes quando a economia de bateria estiver ativa</string>
+    <string name="smart_pixels_percent">Porcentagem de pixels a desativar</string>
+    <string name="smart_pixels_shift">Previnir o efeito burn-in a cada deslocamento dos pixels</string>
     <!-- Statusbar configs -->
+    <string name="statusbar_custom">Personalizações da Barra de status</string>
+    <string name="xperience_statusbar">Barra de status</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Tráfego de rede</string>
+    <string name="network_traffic_state_summary">Mostrar a atividade da rede na barra de status</string>
+    <string name="network_traffic_autohide_threshold_title">Limite para ocultar automaticamente a atividade de rede (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar setas</string>
+    <string name="network_traffic_hidearrow_summary">Ocultar as setas dos indicadores de tráfego</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Saúde da bateria</string>
+    <string name="battery_health_summary">Monitore a saúde da bateria do seu dispositivo</string>
+    <string name="current_battery_capacity">Capacidade atual da bateria</string>
+    <string name="current_battery_capacity_summary">A capacidade atual de bateria medida pelo kernel</string>
+    <string name="designed_battery_capacity">Capacidade de bateria definida</string>
+    <string name="designed_battery_capacity_summary">A capacidade de bateria projetada pelo fabricante</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Bloqueio da tela, impressão digital, desbloqueio facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover o escaneamento facial existente e criar um novo?</string>
     <!--Battery Icon selection-->
+    <string name="battery_status_icon_title">Ícone de status</string>
+    <string name="status_bar_battery_style_title">Estilo da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone retrato (padrão)</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_circle_percent">Círculo (% dentro)</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Preenchido)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forçado</string>
     <!-- Lock screen double tap -->
+    <string name="doubletap_lockscreen_screen_title">Desligar tela</string>
+    <string name="doubletap_lockscreen_title">Toque duplo para desligar na tela de bloqueio</string>
+    <string name="doubletap_lockscreen_summary">Toque duas vezes na tela de bloqueio para desligar a tela</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslize para capturar a tela</string>
+    <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para a captura da tela</string>
     <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
     <!-- Notification sound -->
+    <string name="notification_sound_vib_screen_on_title">Som de notificação se ativo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibração para notificações quando a tela estiver ativada</string>
     <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar taxa de atualização da tela de 60hz para economizar energia quando o modo economia de bateria estiver ativado</string>
     <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localize o sensor de impressão digital no <xliff:g id="sensor_location">%1$s</xliff:g> do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localize o sensor de impressão digital <xliff:g id="sensor_location">%1$s</xliff:g> do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localize o sensor de impressões digitais na <xliff:g id="sensor_location">%1$s</xliff:g> do seu telefone.</string>
     <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">Voltar</string>
+    <string name="security_settings_fingerprint_sensor_location_front">frente</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lado esquerdo</string>
+    <string name="security_settings_fingerprint_sensor_location_right">lado direito</string>
     <!-- Inverted navbar layout -->
+    <string name="navbar_invert_layout_title">Inverter botões</string>
 </resources>

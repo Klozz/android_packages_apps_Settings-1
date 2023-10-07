@@ -37,6 +37,10 @@
     <!--Battery Icon selection-->
     <!-- Status bar - Battery percentage -->
     <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Nonaktif</string>
+    <string name="selinux_status_permissive">Tidak Wajib</string>
+    <string name="selinux_status_enforcing">Wajib</string>
     <!-- Lock screen double tap -->
     <!-- App details: open play store link if app is user installed -->
     <!-- Volume link notification -->
