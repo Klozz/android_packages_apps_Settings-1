@@ -15,38 +15,154 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux-állapot</string>
+    <string name="selinux_status_disabled">Letiltva</string>
+    <string name="selinux_status_permissive">Engedélyezve</string>
+    <string name="selinux_status_enforcing">Kényszerítve</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">XPerience™-verzió</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">XPerience™-kódnév</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Csatorna</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Készülék</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Az összes RAM</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">A Speciális újraindítás engedélyezése</string>
+    <string name="global_actions_advanced_reboot_summary">A Recovery és Bootloader opciók megjelenítése a kikapcsoló menüben</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Képernyőfrissítési minimum</string>
+    <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
+    <string name="battery_saver_refresh_rate_title">Képernyőfrissítés-csökkentés</string>
+    <string name="battery_saver_refresh_rate_summary">Ha az akkukímélőt bekapcsolja, energiatakarékosságból max. 60 Hz lesz a képernyőfrissítés</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Csengő és értesítési hangok összekapcsolása</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Képernyőkép csúsztatással</string>
+    <string name="three_finger_gesture_summary">Csúsztasson három ujjal lefelé képernyőkép készítéséhez</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Mentési-szolgáltatóváltás</string>
+    <string name="backup_transport_title">Mentési-szolgáltatás kiválasztása</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Állapotsor</string>
+    <string name="statusbar_custom">Az Állapotsor személyre szabása</string>
+    <string name="network_traffic_state_title">Hálózati forgalom</string>
+    <string name="network_traffic_state_summary">A hálózati aktivitás megjelenítése az állapotsoron</string>
+    <string name="network_traffic_autohide_threshold_title">A hálózati forgalom automatikus elrejtésének határértéke (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nyilak elrejtése</string>
+    <string name="network_traffic_hidearrow_summary">Hálózati forgalmat jelző nyilak elrejtése</string>
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Véletlenébresztés-gátló</string>
+    <string name="proximity_wake_summary">Ellenőrizze a közelségérzékelőt a képernyő felébresztése előtt</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Akkumulátor-beállítások</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Akkustílus</string>
+    <string name="battery_style_category_summary">Válasszon akkuikon-stílust</string>
+    <string name="battery_percent_title">Akkumulátorszázalék</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Akkustílus</string>
+    <string name="status_bar_battery_style_icon_portrait">Álló ikon (alapértelmezett)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Fekvő ikon (Jobb)</string>
+    <string name="status_bar_battery_style_icon_landscape">Fekvő ikon (Bal)</string>
+    <string name="status_bar_battery_style_circle">Kör</string>
+    <string name="status_bar_battery_style_dotted_circle">Kör (Pontozott)</string>
+    <string name="status_bar_battery_style_filled_circle">Kör (Kitöltött)</string>
+    <string name="status_bar_battery_style_text">Szöveg</string>
+    <string name="status_bar_battery_style_hidden">Rejtett</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Százalékos kijelzés</string>
+    <string name="status_bar_battery_percentage_default">Rejtett (alapértelmezett)</string>
+    <string name="status_bar_battery_percentage_text_inside">Az ikon belsejében</string>
+    <string name="status_bar_battery_percentage_text_next">Az ikon mellett</string>
+    <string name="left_battery_text_title">Szöveg bal oldalon</string>
+    <string name="left_battery_text_summary">Kerüljön a szöveg az akkumulátorikon bal oldalára</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Akkumulátorállapot</string>
+    <string name="battery_health_summary">Figyelemmel kíséri a készülék akkumulátorának állapotát</string>
+    <string name="current_battery_capacity">Az akkumulátor jelenlegi kapacítása</string>
+    <string name="current_battery_capacity_summary">A kernel által mért aktuális akkumulátor-kapacítás</string>
+    <string name="designed_battery_capacity">Tervezett akkumulátor-kapacítás</string>
+    <string name="designed_battery_capacity_summary">A gyártó által tervezett akkumulátor-kapacítás</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Betűtípus</string>
+    <string name="theme_customization_icon_pack_title">Ikoncsomag</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Kicsi mobiltípus-ikon</string>
+    <string name="use_old_mobiletype_summary">Megjeleníti a mobiltípus-ikont a térerőkijelzés tetején</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Töltéskijelzés a képernyőzáron</string>
+    <string name="lockscreen_battery_info_summary">Töltés közbeni töltőáram, feszültség és az akkumulátor hőmérsékletének megjelenítése a zárképernyőn</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
+    <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN-kód megadása után</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
+    <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptív lejátszás</string>
+    <string name="adaptive_playback_enabled">Az \'Adaptív lejátszás\' használata</string>
+    <string name="adaptive_playback_disabled_summary">Kikapcsol</string>
+    <string name="adaptive_playback_intro_text">Hangerőnémításkor automatikusan leállítja a lejátszást és a beállított időn belül automatikusan újra is indítja, ha a némítás megszűnik.</string>
+    <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
+    <string name="adaptive_playback_timeout_none">Nincs időtúllépés</string>
+    <string name="adaptive_playback_timeout_none_summary">Be (nincs időtúllépés)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 másodperc</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Be (30 másodperc)</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Be (1 perc)</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Be (2 perc)</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Az arcbeolvasás megismétlése</string>
+    <string name="face_redo_confirm_btn">Ismétlés</string>
+    <string name="face_redo_warning_msg">Szeretné eltávolítani a jelenlegi arcot és beolvasni egy újat?</string>
+    <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
+    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
+    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
     <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Zseblámpa kikapcsolt képernyőnél</string>
+    <string name="torch_power_button_gesture_none">Letiltva</string>
+    <string name="torch_power_button_gesture_dt">Bekapcsológomb dupla érintése (az egyszeri érintés lassabban reagál) és ez a funkció letiltja a bekapcsológombbal való kameraindítást.</string>
+    <string name="torch_power_button_gesture_dt_toast">A kamera-gesztusra ugrás most le van tiltva</string>
+    <string name="torch_power_button_gesture_lp">A bekapcsológomb nyomva tartása</string>
+    <string name="xperience_gestures">Gomb-vezérlő</string>
+    <string name="button_custom">Bekapcsológomb Lámpa művelet</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">4G megjelenítése LTE helyett</string>
+    <string name="show_fourg_icon_summary">Lecseréli az LTE hálózatkijelző ikont egy 4G feliratra</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Szolgáltatói felírat</string>
+    <string name="carrier_label_settings_summary">Személyre szabott szolgáltatói felirat</string>
+    <string name="custom_carrier_label_title">Egyedi szolgáltatói felirat</string>
+    <string name="custom_carrier_label_explain">Adjon meg egy egyéni feliratot. Hagyja üresen, ha a valódi hálózat nevét szeretné látni</string>
+    <string name="custom_carrier_label_notset">Jelenleg nincs beállított egyedi felirat</string>
+    <string name="show_carrier_title">A \'Szolgáltatói felirat\' helye</string>
+    <string name="show_carrier_disabled">Letiltva</string>
+    <string name="show_carrier_keyguard">Zárképernyőn</string>
+    <string name="show_carrier_statusbar">Állapotsoron</string>
+    <string name="show_carrier_enabled">Mindkét helyen</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Fordított navigációssáv-elrendezés</string>
     <!-- Per-app volume -->
+    <string name="app_volume">Alkalmazás-hangerő</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Navigációs sáv</string>
+    <string name="immersive_navigation_title">Imerzív navigáció</string>
+    <string name="immersive_navigation_summary">A vezélésjelző és a navigációs sáv kitöltésének elrejtése</string>
     <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">A vezérlésjelző hossza</string>
+    <string name="gesture_navbar_length_preference_short_label">Rövid</string>
+    <string name="gesture_navbar_length_preference_long_label">Hosszú</string>
 </resources>
