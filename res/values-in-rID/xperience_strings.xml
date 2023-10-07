@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2022 The XPerience Project
+<!-- Copyright (C) 2011-2022 The XPerience Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,14 +14,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Ubah penyedia cadangan</string>
     <string name="backup_transport_title">Pilih penyedia cadangan</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Status SELinux</string>
-    <string name="selinux_status_disabled">Nonaktif</string>
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
@@ -48,10 +45,10 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Temukan sensor sidik jari di bagian depan tablet Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Temukan sensor sidik jari di bagian depan perangkat Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Temukan sensor sidik jari di bagian depan telepon Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Temukan sensor sidik jari di bagian belakang tablet Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Temukan sensor sidik jari di bagian belakang perangkat Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Temukan lokasi sensor sidik jari di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Temukan sensor sidik jari di bagian samping tablet Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Temukan sensor sidik jari di bagian samping perangkat Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Temukan sensor sidik jari di bagian samping ponsel Anda.</string>
@@ -73,14 +70,14 @@
     <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode pemulihan dan bootloader di menu daya</string>
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Pengelola ikon</string>
-    <string name="icon_manager_summary">Kontrol tampilan ikon bilah status</string>
+    <string name="icon_manager_summary">Kontrol visibilitas ikon bilah status</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Bilah status</string>
     <string name="statusbar_custom">Kustomisasi bilah status</string>
     <string name="network_traffic_state_title">Lalu lintas jaringan</string>
     <string name="network_traffic_state_summary">Tampilkan aktivitas jaringan di bilah status</string>
     <string name="network_traffic_autohide_threshold_title">Otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
-    <string name="network_traffic_hidearrow">Sembunyikan tanda panah</string>
+    <string name="network_traffic_hidearrow">Sembunyikan panah</string>
     <string name="network_traffic_hidearrow_summary">Sembunyikan panah indikator lalu lintas jaringan</string>
     <!-- Battery health -->
     <string name="battery_health_title">Kesehatan Baterai</string>
@@ -94,11 +91,11 @@
     <string name="immersive_navigation_title">Navigasi Immersive</string>
     <string name="immersive_navigation_summary">Sembunyikan pil gestur dan lapisan bilah navigasi.</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Kecepatan refresh minimal</string>
-    <string name="max_refresh_rate_title">Kecepatan refresh maksimal</string>
+    <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
+    <string name="max_refresh_rate_title">Kecepatan refresh maksimum</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Usap untuk tangkapan layar</string>
-    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk tangkapan layar</string>
+    <string name="three_finger_gesture">Usap untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
@@ -111,7 +108,7 @@
     <string name="button_custom">Gestur lampu senter</string>
     <!-- Show LTE/4G switch -->
     <string name="show_fourg_icon_title">Tampilkan 4G daripada LTE</string>
-    <string name="show_fourg_icon_summary">Ganti indikator LTE dengan 4G</string>
+    <string name="show_fourg_icon_summary">Ganti indikator bilah status LTE dengan 4G</string>
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Tipe ikon seluler kecil</string>
     <string name="use_old_mobiletype_summary">Tampilkan tipe ikon seluler di atas indikator sinyal</string>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2022 The XPerience Project
+<!-- Copyright (C) 2011-2022 The XPerience Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,36 +14,145 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Сменить поставщика услуг резервного копирования</string>
+    <string name="backup_transport_title">Выберите поставщика услуг резервного копирования</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключено</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Версия XPerience</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Кодовое имя XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Канал</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Устройство</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего ОЗУ</string>
     <!-- FastCharge feature -->
+    <string name="fast_charging_title">Быстрая зарядка</string>
+    <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или, чтобы продлить срок службы аккумулятора</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Отладка с правами суперпользователя</string>
+    <string name="adb_enable_summary_root">Разрешить запуск отладки Android с правами суперпользователя</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на задней поверхности телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на лицевой стороне телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на обратной стороне вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите сканер отпечатков пальцев на задней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите сканер отпечатков на задней поверхности телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Найдите сканер отпечатков пальцев на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Найдите сканер отпечатков пальцев на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Найдите сканер отпечатков на боковой части телефона.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Коснитесь сенсора на передней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Коснитесь сенсора на передней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Коснитесь сенсора на передней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Коснитесь датчика на обратной стороне вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Коснитесь датчика на обратной стороне вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Коснитесь датчика на обратной стороне вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Коснитесь датчика на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Коснитесь датчика на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Коснитесь сенсора на боковой грани вашего телефона.</string>
     <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Отпечаток на выключенном экране</string>
+    <string name="screen_off_fod_summary">Использовать сканер отпечатков пальцев при выключенном экране</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры для рекавери (режима восстановления) и загрузчика в меню кнопки питания</string>
     <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Менеджер иконок</string>
+    <string name="icon_manager_summary">Управление видимостью значков в строке состояния</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Строка состояния</string>
+    <string name="statusbar_custom">Настройки строки состояния</string>
+    <string name="network_traffic_state_title">Сетевой трафик</string>
+    <string name="network_traffic_state_summary">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Автоматическое скрытие индикатора сетевого трафика (KB/s)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Состояние батареи</string>
+    <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="current_battery_capacity_summary">Текущая ёмкость батареи, измеренная ядром</string>
+    <string name="designed_battery_capacity">Заявленная емкость батареи</string>
+    <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Панель навигации</string>
+    <string name="immersive_navigation_title">Полноэкранная навигация</string>
+    <string name="immersive_navigation_summary">Скрыть полоску жестов и отступ панели навигации.</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Свайп для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания скриншота</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующий снимок лица и создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий снимок лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включён</string>
+    <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
+    <string name="xperience_gestures">Навигация</string>
+    <string name="button_custom">Жест питания</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Отображать 4G вместо LTE</string>
+    <string name="show_fourg_icon_summary">Заменяет LTE индикатор строки состояния на 4G</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Маленький значок мобильной сети</string>
+    <string name="use_old_mobiletype_summary">Показывать значок мобильной сети над индикатором сигнала</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">«Умные пиксели» - средство экономии заряда. В зависимости от того, сколько пикселей вы захотите отключить, это может привести к значительному увеличению времени работы от батареи. Обратите внимание, что в некоторых случаях это может привести к невосприимчивости областей на экране</string>
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Экономить заряд батареи, выключая дополнительные пиксели</string>
+    <string name="smart_pixels_enable_title">Включить Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Выключить пиксели для снижения энергопотребления</string>
+    <string name="smart_pixels_on_power_save_title">Включать автоматически в режиме энергосбережения</string>
+    <string name="smart_pixels_on_power_save_summary">Включить Smart Pixels при включенном энергосбережении</string>
+    <string name="smart_pixels_percent">Процент отключаемых пикселей</string>
+    <string name="smart_pixels_shift_title">Защита от выгорания экрана</string>
+    <string name="smart_pixels_shift_summary">Предотвращение выгорания на OLED устройствах благодаря перемещению пикселей с такой частотой</string>
+    <string name="custom_timeout_summary_never">Никогда</string>
+    <string name="custom_timeout_summary_15secs">15 секунд</string>
+    <string name="custom_timeout_summary_30secs">30 секунд</string>
+    <string name="custom_timeout_summary_1min">1 минута</string>
+    <string name="custom_timeout_summary_2mins">2 минуты</string>
+    <string name="custom_timeout_summary_5mins">5 минут</string>
+    <string name="custom_timeout_summary_10mins">10 минут</string>
+    <string name="custom_timeout_summary_20mins">20 минут</string>
+    <string name="custom_timeout_summary_30mins">30 минут</string>
+    <string name="custom_timeout_summary_1hour">1 час</string>
+    <string name="custom_timeout_summary_2hours">2 часа</string>
+    <string name="custom_timeout_summary_4hours">4 часа</string>
+    <string name="custom_timeout_summary_8hours">8 часов</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Анимация выключения экрана</string>
+    <string name="screen_off_animation_default">По умолчанию</string>
+    <string name="screen_off_animation_scale">Маштабирование</string>
     <!-- Gaming mode -->
+    <string name="gaming_mode_title">Игровое пространство</string>
+    <string name="gaming_mode_summary">Дополнительные возможности для полноценного погружения в игру</string>
     <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Показывать ярлык игровой панели в играх</string>
+    <string name="game_dashboard_always_on_title">Игровая панель</string>
+    <string name="game_dashboard_dnd_rule_name">Игровой</string>
+    <string name="game_dashboard_dnd_summary">Получать уведомления только от избранных контактов и приложений в играх</string>
+    <string name="game_dashboard_dnd_title">Режим \"Не беспокоить\" в играх</string>
     <!-- Game Space -->
+    <string name="game_space_title">Игровое пространство</string>
+    <string name="game_space_summary">Помогает улучшить свой игровой опыт</string>
     <!-- UI -->
+    <string name="xperience_ui_title">Пользовательский интерфейс XPerience</string>
+    <string name="ui_custom">Пользовательский интерфейс и настройки игры</string>
 </resources>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2022 The XPerience Project
+<!-- Copyright (C) 2011-2022 The XPerience Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,14 +14,18 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Changer de fournisseur de sauvegarde</string>
+    <string name="backup_transport_title">Sélectionner un fournisseur de sauvegarde</string>
     <!-- SELinux Status -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Version de XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Nom de code XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About to show Device name -->
+    <string name="about_device_name">Appareil</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
@@ -32,15 +35,30 @@
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Screen off FOD -->
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Afficher les options pour le mode recovery et le mode bootloader dans le menu d\'alimentation</string>
     <!-- Status bar Icon Manager -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Débit réseau</string>
+    <string name="network_traffic_state_summary">Afficher l\'activité réseau dans la barre d\'état</string>
+    <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
     <!-- Battery health -->
     <!-- Immersive Navigation -->
     <!-- Refresh rate -->
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Glisser pour prendre une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Balayez vers le bas avec trois doigts pour prendre une capture d’écran</string>
     <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
+    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <string name="xperience_gestures">Geste du bouton</string>
+    <string name="button_custom">Geste de lampe de poche</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Afficher 4G au lieu de LTE</string>
+    <string name="show_fourg_icon_summary">Remplacer l\'indicateur LTE avec 4G</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Petite icône pour le réseau mobile</string>
+    <string name="use_old_mobiletype_summary">Affiche l\'icône de réseau mobile au-dessus de l\'indicateur de signal</string>
     <!-- Smart Pixels -->
     <!-- Screen Off animation -->
     <!-- Gaming mode -->

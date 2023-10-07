@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2022 The XPerience Project
+<!-- Copyright (C) 2011-2022 The XPerience Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,9 +14,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Backup Transport selection settings menu and activity title -->
     <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Nonaktif</string>
+    <string name="selinux_status_permissive">Tidak Wajib</string>
+    <string name="selinux_status_enforcing">Wajib</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
