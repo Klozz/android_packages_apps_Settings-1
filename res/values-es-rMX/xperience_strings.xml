@@ -149,7 +149,7 @@
     <!-- Game -->
     <string name="game_dashboard_always_on_summary">Mostrar atajo del modo juego en los juegos</string>
     <string name="game_dashboard_always_on_title">Modo Juego</string>
-    <string name="game_dashboard_dnd_rule_name">Gaming</string>
+    <string name="game_dashboard_dnd_rule_name">Juego</string>
     <string name="game_dashboard_dnd_summary">Solo recibir notificaciones de personas y aplicaciones importantes al jugar</string>
     <string name="game_dashboard_dnd_title">No molestar (DND) en juegos</string>
     <!-- Game Space -->

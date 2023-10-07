@@ -16,37 +16,175 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Mentett Earbuds fülhallgatók</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Mentési-szolgáltatóváltás</string>
+    <string name="backup_transport_title">Mentési-szolgáltatás kiválasztása</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux-állapot</string>
+    <string name="selinux_status_disabled">Letiltva</string>
+    <string name="selinux_status_permissive">Engedélyezve</string>
+    <string name="selinux_status_enforcing">Kényszerítve</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">XPerience™-verzió</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">XPerience™-kódnév</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Csatorna</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Készülék</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Az összes RAM</string>
     <!-- FastCharge feature -->
+    <string name="fast_charging_title">Gyorstöltés</string>
+    <string name="fast_charging_summary">Tiltás, a töltés közbeni készülékmelegedés elkerülése érdekében és az akkuélettartam növeléséért</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rootolt hibakeresés</string>
+    <string name="adb_enable_summary_root">Rootolva engedélyezi az Android hibakeresését</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Táblagépe előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Készüléke előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Táblagépe hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Táblagépe oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Érintse meg a szenzort táblagépe előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Érintse meg a szenzort készüléke előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Érintse meg a szenzort telefonja előlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Érintse meg a szenzort táblagépe hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Érintse meg a szenzort készüléke hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Érintse meg a szenzort telefonja hátlapján.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Érintse meg a szenzort táblagépe oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg a szenzort készüléke oldalán.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg a szenzort telefonja oldalán.</string>
     <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Ujjlenyomat kikapcsolt képernyőn</string>
+    <string name="screen_off_fod_summary">Kikapcsolt képernyőnél is bekapcsolva marad az ujjlenyomat-olvasó szenzor</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">A Speciális újraindítás engedélyezése</string>
+    <string name="global_actions_advanced_reboot_summary">A Recovery és Bootloader opciók megjelenítése a kikapcsoló menüben</string>
     <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Ikonkezelő</string>
+    <string name="icon_manager_summary">Az állapotsori ikonoláthatóság beállítása</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Állapotsor</string>
+    <string name="statusbar_custom">Az Állapotsor személyre szabása</string>
+    <string name="network_traffic_state_title">Hálózati forgalom</string>
+    <string name="network_traffic_state_summary">A hálózati aktivitás megjelenítése az állapotsoron</string>
+    <string name="network_traffic_autohide_threshold_title">A hálózati forgalom automatikus elrejtésének határértéke (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nyilak elrejtése</string>
+    <string name="network_traffic_hidearrow_summary">Hálózati forgalmat jelző nyilak elrejtése</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Akkumulátorállapot</string>
+    <string name="battery_health_summary">Figyelemmel kíséri a készülék akkumulátorának állapotát</string>
+    <string name="current_battery_capacity">Az akkumulátor jelenlegi kapacítása</string>
+    <string name="current_battery_capacity_summary">A kernel által mért aktuális akkumulátor-kapacítás</string>
+    <string name="designed_battery_capacity">Tervezett akkumulátor-kapacítás</string>
+    <string name="designed_battery_capacity_summary">A gyártó által tervezett akkumulátor-kapacítás</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Navigációs sáv</string>
+    <string name="immersive_navigation_title">Imerzív navigáció</string>
+    <string name="immersive_navigation_summary">A vezélésjelző és a navigációs sáv kitöltésének elrejtése</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Képernyőfrissítési minimum</string>
+    <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Képernyőkép csúsztatással</string>
+    <string name="three_finger_gesture_summary">Csúsztasson három ujjal lefelé képernyőkép készítéséhez</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Az arcbeolvasás megismétlése</string>
+    <string name="face_redo_confirm_btn">Ismétlés</string>
+    <string name="face_redo_warning_msg">Szeretné eltávolítani a jelenlegi arcot és beolvasni egy újat?</string>
+    <string name="face_unlock_method_title">Az arcalapú feloldás engedélyezése a záróképernyőn</string>
+    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
+    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <string name="xperience_gestures">Gomb-vezérlő</string>
+    <string name="button_custom">Bekapcsológomb Lámpa művelet</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">4G megjelenítése LTE helyett</string>
+    <string name="show_fourg_icon_summary">Lecseréli az LTE hálózatkijelző ikont egy 4G feliratra</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Kicsi mobiltípus-ikon</string>
+    <string name="use_old_mobiletype_summary">Megjeleníti a mobiltípus-ikont a térerőkijelzés tetején</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Az Intelligens Pixelek egy akkumulátorkímélő funkció. Attól függően, hogy hány képpontot kapcsol ki, láthatja az akkumulátor élettartamának javulását. Ne feledje, hogy ez bizonyos esetekben nem reagáló területeket eredményezhet az érintőképernyőn</string>
+    <string name="smart_pixels_title">Intelligens pixelek</string>
+    <string name="smart_pixels_summary">Akkukímélés extra képpontok kikapcsolásával</string>
+    <string name="smart_pixels_enable_title">Az \'Intelligens pixelek\' bekapcsolása</string>
+    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
+    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban</string>
+    <string name="smart_pixels_on_power_save_summary">Engedélyezi az Intelligens pixelek funkciót, ha az akkumulátorkímélő-üzemmód be van kapcsolva</string>
+    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
+    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
+    <string name="smart_pixels_shift_summary">OLED kijelzőkön a képpontok gyakori áthelyezésével beégés elleni védelmet nyújt</string>
+    <string name="custom_timeout_summary_never">Soha</string>
+    <string name="custom_timeout_summary_15secs">15 másodperc</string>
+    <string name="custom_timeout_summary_30secs">30 másodperc</string>
+    <string name="custom_timeout_summary_1min">1 perc</string>
+    <string name="custom_timeout_summary_2mins">2 perc</string>
+    <string name="custom_timeout_summary_5mins">5 perc</string>
+    <string name="custom_timeout_summary_10mins">10 perc</string>
+    <string name="custom_timeout_summary_20mins">20 perc</string>
+    <string name="custom_timeout_summary_30mins">30 perc</string>
+    <string name="custom_timeout_summary_1hour">1 óra</string>
+    <string name="custom_timeout_summary_2hours">2 óra</string>
+    <string name="custom_timeout_summary_4hours">4 óra</string>
+    <string name="custom_timeout_summary_8hours">8 óra</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Képernyő-kikapcsolási animáció</string>
+    <string name="screen_off_animation_default">Alapértelmezett</string>
+    <string name="screen_off_animation_scale">Skála</string>
     <!-- Gaming mode -->
+    <string name="gaming_mode_title">Játéktér</string>
+    <string name="gaming_mode_summary">Extra funkciók a magávalragadó játékélményért</string>
     <!-- Game -->
+    <string name="game_dashboard_always_on_summary">A Játékvezérlő-ikon mejelenitése játék közben</string>
+    <string name="game_dashboard_always_on_title">Játékvezérlő</string>
+    <string name="game_dashboard_dnd_rule_name">Most játszom - mód</string>
+    <string name="game_dashboard_dnd_summary">Játék közbeni értesitések csak a fontosnak jelölt személyektől és alkalmazásokból</string>
+    <string name="game_dashboard_dnd_title">Ne zavarjanak (DND) a játékokhoz</string>
     <!-- Game Space -->
+    <string name="game_space_title">Játéktér</string>
+    <string name="game_space_summary">Fokozza az Ön játékélményét</string>
     <!-- UI -->
+    <string name="xperience_ui_title">XPerience felhasználói felület</string>
+    <string name="ui_custom">Testreszabható a felület és a játéktér</string>
     <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC-kiegyenlítés</string>
+    <string name="dc_dimming_info">Csökkenti a szem megerőltetését gyenge fényviszonyok mellett a képernyővillogás csökkentésével. Rossz képminőséget és gyenge színeket vagy magasabb akkufogyasztást okozhat.</string>
+    <string name="dc_dimming_main_switch_title">A DC-kiegyenlítés használata</string>
+    <string name="dc_dimming_auto_mode_title">Időzítés</string>
+    <string name="dc_dimming_mode_brightness">Bekapcsol, amennyiben a fényerő a küszöbérték alá kerül</string>
+    <string name="dc_dimming_mode_full">Az időtől és a fényességtől függő</string>
+    <string name="dc_dimming_brightness_title">Fényerő-határérték</string>
+    <string name="dc_dimming_brightness_summary">Csak akkor aktiválja a DC-kiegyelnítést, ha az átlagos fényerő a küszöbérték alatt van</string>
+    <string name="dc_dimming_restore_auto_mode">Az automatikus mód helyreállítása</string>
+    <string name="dc_dimming_off_auto_mode_auto">Automatikusan be fog kapcsolni</string>
+    <string name="dc_dimming_on_auto_mode_auto">Automatikusan ki fog kapcsolni</string>
+    <string name="keywords_display_dc_dimming">DC-kiegyenlítés, vibrálás, szem, megterhelés</string>
     <!-- Battery Styles -->
+    <string name="battery_percent_title">Állapotsori akkukijelzés</string>
+    <string name="battery_percent_summary">Konfigurálhatja az állapotsor akkumulátorjelzőjének ikon- és szövegstílusait</string>
+    <string name="status_bar_battery_style_title">Akkustílus</string>
+    <string name="status_bar_battery_style_icon_portrait">Álló ikon</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Fekvő ikon (Jobb)</string>
+    <string name="status_bar_battery_style_icon_landscape">Fekvő ikon (Bal)</string>
+    <string name="status_bar_battery_style_circle">Kör</string>
+    <string name="status_bar_battery_style_dotted_circle">Pontozott kör</string>
+    <string name="status_bar_battery_style_filled_circle">Telített kör</string>
+    <string name="status_bar_battery_style_text">Szöveg</string>
+    <string name="status_bar_battery_style_hidden">Rejtett</string>
+    <string name="status_bar_battery_percentage_title">Százalékos kijelzés</string>
+    <string name="status_bar_battery_percentage_default">Rejtett</string>
+    <string name="status_bar_battery_percentage_text_inside">Az ikon belsejében</string>
+    <string name="status_bar_battery_percentage_text_next">Az ikon mellett</string>
 </resources>
