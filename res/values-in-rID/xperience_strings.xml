@@ -63,4 +63,7 @@
     <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, LiveDisplay</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Gunakan tema hitam</string>
+    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
 </resources>
