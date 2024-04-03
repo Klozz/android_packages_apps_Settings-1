@@ -73,4 +73,7 @@
     <string name="touch_polling_title">Tasa de muestreo táctil alta</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
     <string name="touch_polling_summary">Aumenta la sensibilidad en la pantalla para disminuir la latencia</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema negro</string>
+    <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
 </resources>
