@@ -63,4 +63,7 @@
     <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cor, vermelho, verde, azul, LiveDisplay</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema escuro</string>
+    <string name="system_black_theme_summary">Force o sistam a usar o tema escuro</string>
 </resources>
