@@ -76,4 +76,10 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Usar tema negro</string>
     <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
+    <!-- Horizon Light -->
+    <string name="pulse_ambient_light_summary">Ilumina los bordes de la pantalla al recibir una notificación</string>
+    <string name="ambient_notification_light_accent_title">Color de acento del sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Color de notificación</string>
+    <string name="pulse_ambient_light_color">Al pulsar, usar</string>
+    <!-- Auto pin confirm -->
 </resources>
