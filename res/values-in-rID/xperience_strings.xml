@@ -66,4 +66,10 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Gunakan tema hitam</string>
     <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
+    <!-- Horizon Light -->
+    <string name="pulse_ambient_light_summary">Nyalakan cahaya di sisi pinggir layar saat ada notifikasi</string>
+    <string name="ambient_notification_light_accent_title">Warna aksen sistem</string>
+    <string name="ambient_notification_light_color_automatic_title">Warna Notifikasi</string>
+    <string name="pulse_ambient_light_color">Saat menyala, gunakan</string>
+    <!-- Auto pin confirm -->
 </resources>
