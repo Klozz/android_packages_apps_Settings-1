@@ -42,6 +42,8 @@
     <string name="device_desc_category_title">Banner del dispositivo</string>
     <string name="device_info_hw">Información de Hardware</string>
     <string name="maintainer_summary">Por %s</string>
+    <string name="unknown_maintainer">Desconocido</string>
+    <string name="about_xperience_device">Dispositivo</string>
     <string name="device_info_security_patch">Actualización de seguridad</string>
     <!-- Device Info screen -->
     <string name="edit_device_name_title">Editar nombre del dispositivo</string>
