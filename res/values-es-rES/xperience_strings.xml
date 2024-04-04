@@ -28,6 +28,7 @@
     <string name="build_channel">Canal</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Dispositivo</string>
+    <!-- Device Info screen -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -86,4 +87,5 @@
     <string name="pulse_ambient_light_color">Al pulsar, usar</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquea automáticamente si introduces el PIN correcto. Esta opción es un poco menos segura que presionar Intro para confirmar.</string>
+    <!-- Screen resolution -->
 </resources>
