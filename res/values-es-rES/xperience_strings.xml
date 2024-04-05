@@ -115,5 +115,6 @@
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Resolución de pantalla personalizada</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Reinicio avanzado</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar opciones para recuperación y cargador de arranque</string>
 </resources>
