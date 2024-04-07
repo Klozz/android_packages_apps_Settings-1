@@ -48,4 +48,6 @@
     <!-- Screen resolution -->
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_summary">Afficher les options pour le mode recovery et le mode bootloader dans le menu d\'alimentation</string>
+    <!-- UDFPS Recog Animation -->
+    <!-- UDFPS animation -->
 </resources>
