@@ -49,4 +49,6 @@
     <!-- Screen resolution -->
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Ein/Aus-Menü anzeigen</string>
+    <!-- UDFPS Recog Animation -->
+    <!-- UDFPS animation -->
 </resources>
