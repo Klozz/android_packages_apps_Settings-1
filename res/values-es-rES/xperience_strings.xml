@@ -118,7 +118,13 @@
     <string name="global_actions_advanced_reboot_title">Reinicio avanzado</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar opciones para recuperación y cargador de arranque</string>
     <!-- UDFPS Recog Animation -->
+    <string name="xperience_lockscreen_title">Pantalla de bloqueo</string>
+    <string name="udfps_settings_title">Ajustes de huella en pantalla</string>
+    <string name="udfps_settings_summary">Ajustes para personalizar la huella en pantalla</string>
     <!-- UDFPS animation -->
+    <string name="enable">Habilitar</string>
+    <string name="udfps_animation_title">Efecto de animación de Huella en Pantalla</string>
+    <string name="udfps_animation_summary">Elige tu animación favorita</string>
     <string name="udfps_icon_picker_title">Selector de iconos UDFPS</string>
     <string name="udfps_icon_picker_summary">Elige tu icono de huella digital favorito</string>
 </resources>
