@@ -65,4 +65,6 @@
     <!-- Screen resolution -->
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_summary">Hiển thị các tuỳ chọn cho recovery và bootloader trong menu nguồn</string>
+    <!-- UDFPS Recog Animation -->
+    <!-- UDFPS animation -->
 </resources>
