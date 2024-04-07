@@ -76,4 +76,6 @@
     <!-- Screen resolution -->
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode pemulihan dan bootloader di menu daya</string>
+    <!-- UDFPS Recog Animation -->
+    <!-- UDFPS animation -->
 </resources>
