@@ -26,6 +26,7 @@
     <string name="xperience_build_code">Código XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canal</string>
+    <!-- About phone CLO revision [CHAR LIMIT=100] -->
     <!-- About to show Device name -->
     <string name="about_device_name">Dispositivo</string>
     <string name="homepage_widget_battery_percent">porcentaje</string>
@@ -127,4 +128,11 @@
     <string name="udfps_animation_summary">Elige tu animación favorita</string>
     <string name="udfps_icon_picker_title">Selector de iconos UDFPS</string>
     <string name="udfps_icon_picker_summary">Elige tu icono de huella digital favorito</string>
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
 </resources>
