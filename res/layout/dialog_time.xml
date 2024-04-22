@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
-     Copyright (C) 2021-2022 The XPerience Project
+<!--
+     Copyright (C) 2023 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,15 +15,16 @@
      limitations under the License.
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
 
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false"></string>
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="8dp" />
 
-    <!-- Whether to show min/max refresh rate in display settings -->
-    <bool name="config_show_refresh_rate_controls">false</bool>
-
-    <!-- Whether to show custom screen resolution settings -->
-    <bool name="config_show_custom_screen_resolution_switch">true</bool>
-
-</resources>
+</LinearLayout>
