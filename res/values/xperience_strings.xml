@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 The XPerience Project
+     Copyright (C) 2022-2024 The XPerience Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -30,8 +31,8 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Channel</string>
     <!-- About phone CLO revision [CHAR LIMIT=100] -->
-    <string name="clo_revision">Clo revision</string>
-    <string name="clo_sys_vend">System | vendor</string>
+    <string name="clo_revision">CLO revision</string>
+    <string name="clo_sys_vend">System | Vendor</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Device</string>
     <string name="homepage_widget_battery_percent">percent</string>
@@ -48,8 +49,8 @@
     <string name="build_is_official_title">#official</string>
     <string name="build_is_community_title" translatable="false">#homebrew</string>
     <string name="device_info_platform_version" translatable="false">14 | fourteen | UpsideDownCake</string>
-    <string name="device_desc_category_title">Device Banner</string>    
-    <string name="device_info_hw">Hardware info</string>    
+    <string name="device_desc_category_title">Device Banner</string>
+    <string name="device_info_hw">Hardware info</string>
     <string name="maintainer_summary">by %s</string>
     <string name="unknown_maintainer">by Unknown</string>
     <string name="about_xperience_device">Device</string>
@@ -157,7 +158,7 @@
 
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_technology_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
 
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
@@ -171,11 +172,11 @@
 
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_temperature_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
 
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_voltage_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
 
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
@@ -183,11 +184,62 @@
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Design capacity</string>
     <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_design_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
 
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum capacity</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <string name="battery_maximum_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
 
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_vrr_title">Variable refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power.</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption.</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, 60hz, 90hz, 120hz, 144hz</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Use smart pause</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Charging control</string>
+    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
+    <string name="charging_control_enable_title">Enable charging control</string>
+    <string name="charging_control_mode_title">Charging mode</string>
+    <string name="charging_control_mode_auto_title">Automatic schedule</string>
+    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
+    <string name="charging_control_mode_custom_title">Custom schedule</string>
+    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
+    <string name="charging_control_mode_limit_title">Limit charging</string>
+    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
+    <string name="charging_control_start_time_title">Start time</string>
+    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
+    <string name="charging_control_target_time_title">Target time to full charge</string>
+    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
+    <string name="charging_control_limit_title">Limit</string>
+    <string name="reset">Reset</string>
 </resources>
