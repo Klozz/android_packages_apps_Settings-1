@@ -63,13 +63,6 @@
     <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">RAM total</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Salud de la batería</string>
-    <string name="battery_health_summary">Monitorea la salud de la batería de su dispositivo</string>
-    <string name="current_battery_capacity">Capacidad actual de la batería</string>
-    <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el kernel</string>
-    <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
-    <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostrar pantalla ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar Pantalla Ambiente en lugar de despertar completamente la pantalla</string>
@@ -201,4 +194,24 @@
     <string name="charging_control_target_time_summary">La batería estará completamente cargada en %s</string>
     <string name="charging_control_limit_title">Limite</string>
     <string name="reset">Restablecer</string>
+    <!-- One shot automatic brightness -->
+    <!-- App lock -->
+    <!-- Themes customization -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Tematización</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Forma del icono</string>
+    <string name="theme_customization_icon_shape_summary">Establecer el estilo de la forma del icono del sistema</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Titular / Tipo de letra del cuerpo</string>
+    <string name="theme_customization_font_summary">Establecer el estilo de la fuente del sistema</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Paquete de iconos</string>
+    <string name="theme_customization_icon_pack_summary">Establecer un estilo de paquete de iconos personalizado</string>
+    <!-- Custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Estilo del icono de la señal</string>
+    <string name="theme_customization_signal_icon_summary">Establecer un estilo de icono de señal personalizado</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Estilo de icono WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Establecer un estilo de icono wifi personalizado</string>
 </resources>
