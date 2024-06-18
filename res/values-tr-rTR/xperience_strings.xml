@@ -317,6 +317,13 @@
     <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
     <string name="status_bar_battery_percentage_text_next">Simge yanında</string>
     <!--udfps-->
+    <string name="udfps_category">Ekran altı parmak izi</string>
     <!-- Udfps animations -->
+    <string name="udfps_recog_animation">UDFPS animasyonunu kullan</string>
+    <string name="udfps_recog_animation_summary">Parmak izi okunurken bir animasyon gösterir</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS özel animasyonu</string>
+    <string name="udfps_recog_animation_effect_summary">Animasyon efekti seçin</string>
     <!-- Udfps icon picker -->
+    <string name="udfps_icon_picker_title">UDFPS simge seçici</string>
+    <string name="udfps_icon_picker_summary">En sevdiğiniz parmak izi simgesini seçin</string>
 </resources>
