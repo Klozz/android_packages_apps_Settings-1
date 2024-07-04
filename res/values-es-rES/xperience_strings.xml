@@ -311,4 +311,5 @@
     <string name="battery_percent_inside_summary">Mostrar porcentaje dentro del icono</string>
     <string name="show_battery_percent_charging_title">Mostrar porcentaje al cargar</string>
     <string name="show_battery_percent_charging_summary">Forzar mostrar el porcentaje al lado del icono al cargar</string>
+    <!-- X-Reality Engine -->
 </resources>
