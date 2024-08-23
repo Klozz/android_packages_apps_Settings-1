@@ -28,9 +28,29 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Csatorna</string>
     <!-- About phone CLO revision [CHAR LIMIT=100] -->
+    <string name="clo_revision">CLO-felülvizsgálat</string>
+    <string name="clo_sys_vend">Rendszer | Gyártói</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Készülék</string>
+    <string name="homepage_widget_battery_percent">százalék</string>
+    <string name="homepage_widget_battery_charge">Töltés</string>
+    <string name="homepage_widget_battery_discharge">Nincs töltés</string>
+    <string name="homepage_widget_battery_title">Akku</string>
+    <string name="homepage_widget_storage_title">Tárhely</string>
+    <string name="default_user">Felhasználó</string>
+    <string name="top_level_settings_title">Beállítások</string>
+    <string name="search_button_text_title">Keresés</string>
+    <string name="firmware_build_type_title">Kiadás-típus</string>
+    <string name="firmware_build_summary_title">A felelőstől</string>
+    <string name="build_is_official_title">#hivatalos</string>
+    <string name="device_desc_category_title">Készülék-szalagcím</string>
+    <string name="device_info_hw">Hardveradatok</string>
+    <string name="maintainer_summary">felelős: %s</string>
+    <string name="unknown_maintainer">Ismeretlentől</string>
+    <string name="about_xperience_device">Készülék</string>
+    <string name="device_info_security_patch">Biztonsági frissítés</string>
     <!-- Device Info screen -->
+    <string name="edit_device_name_title">A készüléknév átírása</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -148,5 +168,5 @@
     <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_title">Akkustílus</string>
-    <!-- X-Reality Engine -->
+    <!-- Reality Display Engine -->
 </resources>
