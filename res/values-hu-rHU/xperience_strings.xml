@@ -312,4 +312,5 @@
     <string name="show_battery_percent_charging_title">Százalék csak töltéskor</string>
     <string name="show_battery_percent_charging_summary">Töltés közben mindenképp megjeleníti a százalék-értéket az ikon mellett</string>
     <!-- Reality Display Engine -->
+    <!-- Pocket judge -->
 </resources>
