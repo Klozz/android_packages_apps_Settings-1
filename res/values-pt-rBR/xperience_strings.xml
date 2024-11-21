@@ -148,4 +148,16 @@
     <string name="status_bar_battery_style_title">Estilo da bateria</string>
     <!-- Reality Display Engine -->
     <!-- Pocket judge -->
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animação ao desligar tela</string>
+    <string name="screen_off_animation_default">Padrão</string>
+    <string name="screen_off_animation_scale">Escala</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do notch</string>
+    <string name="display_cutout_force_fullscreen_no_apps">Nenhum aplicativo</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Por favor reinicie o aplicativo para aplicar as alterações.</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter os botões da barra de navegação</string>
+    <string name="navbar_invert_info">Inverter os botões \"Voltar\" e \"Recentes\" na barra de navegação</string>
 </resources>
