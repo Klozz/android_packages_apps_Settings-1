@@ -90,4 +90,6 @@
     <string name="touchscreen_hovering_summary">Ekrana dokunmadan parmağınızı yakınlaştırarak bir fare kullanıyormuş gibi web tarayıcılarında, uzak masaüstlerinde, vb. dolaşmanızı sağlar</string>
     <!-- Pocket mode -->
     <!-- Ongoing action chip -->
+    <!-- Navigation bar hint -->
+    <!-- Haptic Effect Style -->
 </resources>
