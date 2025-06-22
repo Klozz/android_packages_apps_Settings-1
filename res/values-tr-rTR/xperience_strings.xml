@@ -115,22 +115,53 @@
     <string name="global_actions_advanced_reboot_title">Gelişmiş yeniden başlatma</string>
     <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
     <!-- UDFPS Recog Animation -->
+    <string name="xperience_lockscreen_title">Kilit Ekranı</string>
+    <string name="udfps_settings_title">UDFPS ayarları</string>
+    <string name="udfps_settings_summary">Parmak izi özelleştirme ayarları</string>
     <!-- UDFPS animation -->
+    <string name="enable">Etkinleştir</string>
+    <string name="udfps_animation_title">UDFPS animasyon efekti</string>
+    <string name="udfps_animation_summary">Animasyon efekti seçin</string>
     <string name="udfps_icon_picker_title">UDFPS simge seçici</string>
     <string name="udfps_icon_picker_summary">En sevdiğiniz parmak izi simgesini seçin</string>
     <!-- Battery Info: Technology -->
+    <string name="battery_technology">Teknoloji</string>
     <!-- Battery Info: Health -->
+    <string name="battery_health">Sağlık</string>
+    <string name="battery_health_good">İyi</string>
+    <string name="battery_health_overheat">Aşırı Isınma</string>
+    <string name="battery_health_dead">Ölü</string>
+    <string name="battery_health_over_voltage">Aşırı voltaj akımı</string>
+    <string name="battery_health_unspecified_failure">Belirtilmeyen hata</string>
+    <string name="battery_health_cold">Soğuk</string>
+    <string name="battery_health_unknown">Bilinmiyor</string>
     <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Sıcaklık</string>
     <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltaj</string>
     <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Tipik kapasite</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
     <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">En yüksek kapasite</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Smart 5G -->
+    <string name="smart_5g_title">Akıllı 5G</string>
+    <string name="smart_5g_summary">Pil tüketimini azaltmak için 5G ve 4G arasında otomatik olarak geçiş yapın</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Yenileme hızı</string>
+    <string name="refresh_rate_vrr_title">Maksimum yenileme hızı</string>
+    <string name="refresh_rate_vrr_summary">Güç tasarrufu için ekran boştayken yenileme hızını otomatik olarak düşürün.</string>
+    <string name="refresh_rate_footer">Yüksek yenileme hızı ekranı daha hızlı yapar, ancak güç tüketimini artırır.</string>
+    <string name="keywords_refresh_rate">yenileme, hız, pürüzsüz, 60hz, 90hz, 120hz, 144hz</string>
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Simge yöneticisi</string>
     <string name="icon_manager_summary">Durum çubuğu simgelerinin görünürlüğünü kontrol edin</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Akıllı Duraklatma</string>
+    <string name="adaptive_playback_enabled">Akıllı duraklatmayı kullan</string>
     <string name="adaptive_playback_disabled_summary">Kapalı</string>
     <string name="adaptive_playback_intro_text">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
     <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
@@ -147,9 +178,31 @@
     <string name="adaptive_playback_timeout_10_min">10 dakika</string>
     <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
     <!-- Charging control settings -->
+    <string name="charging_control_title">Şarj kontrolü</string>
+    <string name="charging_control_summary">Cihazınız için şarj programını ve sınırlarını özelleştirin</string>
+    <string name="charging_control_enable_title">Şarj kontrolünü etkinleştir</string>
+    <string name="charging_control_mode_title">Şarj Modu</string>
+    <string name="charging_control_mode_auto_title">Otomatik kullanım çizelgesi</string>
+    <string name="charging_control_mode_auto_summary">Alarm kurulmuş saatlere göre şarjın ne zaman başlayacağını otomatik belirle</string>
+    <string name="charging_control_mode_custom_title">Özel planlama</string>
+    <string name="charging_control_mode_custom_summary">Tam şarj için bir hedef zaman belirleyin</string>
+    <string name="charging_control_mode_limit_title">Şarjı Kısıtla</string>
+    <string name="charging_control_mode_limit_summary">Şarjı belirli bir yüzdeye kısıtla</string>
+    <string name="charging_control_start_time_title">Başlama zamanı</string>
+    <string name="charging_control_start_time_summary">Şarj kontrolü %s saatinden sonra şarj etmeye başladığında aktive edilir</string>
+    <string name="charging_control_target_time_title">Tam şarj için hedef zaman</string>
+    <string name="charging_control_target_time_summary">Batarya %s%% saatinde şarj edilmiş olacak</string>
+    <string name="charging_control_limit_title">Sınır</string>
     <string name="reset">Sıfırla</string>
     <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Bir kez otomatik parlaklık</string>
+    <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
     <!-- App lock -->
+    <string name="app_lock_title">Uygulama kilidi</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> uygulamalar korunuyor</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> uygulamalar korunuyor</item>
+    </plurals>
     <string name="app_lock_authentication_dialog_title">Kilidi aç</string>
     <string name="enable_debugging">Hata ayıklamayı etkinleştir</string>
     <string name="disable_debugging">Hata Ayıklamayı Devre Dışı Bırak</string>
@@ -209,6 +262,8 @@
     <string name="network_traffic_hidearrow">Okları Gizle</string>
     <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
+    <string name="doze_on_charge_summary">Zamanı ve bilgiyi her zaman sadece cihaz şarjda iken göster</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
@@ -217,9 +272,52 @@
     <string name="app_volume_title">Uygulama başına ses kontrolü</string>
     <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
     <!-- Battery Styles -->
+    <string name="status_bar_battery_category_title">Durum çubuğu özelleştirmeleri</string>
+    <string name="status_bar_battery_style_summary">Durum Çubuğu Pil Stilleri</string>
     <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="battery_options">Batarya</string>
+    <string name="battery_style_title">Pil Stili</string>
+    <string name="battery_style_port">Dikey</string>
+    <string name="battery_style_icon_rlandscape">Yatay simge (Sağ)</string>
+    <string name="battery_style_icon_landscape">Yatay simge (Sol)</string>
+    <string name="battery_style_icon_landscape_origami">Origami</string>
+    <string name="battery_style_icon_landscape_miui_pill">MIUI pill</string>
+    <string name="battery_style_icon_rlandscape_style_a">Sağ yatay stil A</string>
+    <string name="battery_style_icon_landscape_style_a">Yatay L Stil A</string>
+    <string name="battery_style_icon_rlandscape_style_b">Yatay R Stil B</string>
+    <string name="battery_style_icon_landscape_style_b">Yatay L Stil B</string>
+    <string name="battery_style_icon_landscape_pill">Dikey Mx</string>
+    <string name="battery_style_icon_landscape_line">Sadece yatay</string>
+    <string name="battery_style_icon_landscape_musku">Dikey IOS</string>
+    <string name="battery_style_icon_landscape_signal">Yatay Airoo</string>
+    <string name="battery_style_icon_landscape_buddy">Yatay Kapsül</string>
+    <string name="battery_style_icon_land_a">Sadece yatay</string>
+    <string name="battery_style_icon_land_b">Landscape NeNine</string>
+    <string name="battery_style_icon_land_c">Landscape ColorOS</string>
+    <string name="battery_style_icon_land_d">Landscape Love</string>
+    <string name="battery_style_icon_land_j">Landscape Strip Path</string>
+    <string name="battery_style_icon_land_m">Landscape iOS Outline</string>
+    <string name="battery_style_icon_land_n">Landscape Ruler</string>
+    <string name="battery_style_icon_land_o">Landscape Windows</string>
+    <string name="battery_style_circle">Çember</string>
+    <string name="battery_style_dotted_circle">Daire (Noktalı)</string>
+    <string name="battery_style_pa_circle">PA Circle</string>
+    <string name="battery_style_text">Yazı</string>
+    <string name="battery_percent_title">Yüzde göster</string>
+    <string name="battery_percent_summary">Pil yüzdesini her zaman simgeyle birlikte göster</string>
+    <string name="battery_percent_inside_title">Yüzdeyi içinde göster</string>
+    <string name="battery_percent_inside_summary">Simgenin içindeki yüzdeyi göster</string>
+    <string name="show_battery_percent_charging_title">Şarj olurken yüzdeyi göster</string>
+    <string name="show_battery_percent_charging_summary">Şarj olurken simgenin yanında yüzde gösterimini zorla</string>
     <!-- Reality Display Engine -->
+    <string name="display_engine_category">Görüntü ünitesi</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Varsayılan</string>
+    <string name="display_engine_mode_footer_text">Sony\'nin Bravia/X-Reality motorundan ilham alan Ekran Motoru, gelişmiş parlaklık ve renk doygunluğu için Canlı mod, gerçekçi tonlar ve renk tonlarıyla dolu üçlü aydınlatma modu, ultra gerçekçi cilt tonları ve inanılmaz ayrıntılarla gerçekliğin yoğunluğunu takdir etmenizi sağlayan üçlü aydınlatma modu ve gelişmiş ayrıntı ve renk doğruluğu için X-Reality moduna sahiptir.</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Cep algılama</string>
+    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
     <string name="screen_off_animation_default">Varsayılan</string>
