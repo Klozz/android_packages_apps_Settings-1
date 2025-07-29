@@ -46,4 +46,7 @@
     <!-- High touch polling rate -->
     <!-- High touch sensitivity -->
     <!-- Touchscreen hovering -->
+    <!-- Pocket mode -->
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <!-- Torch Power button gestures -->
 </resources>
