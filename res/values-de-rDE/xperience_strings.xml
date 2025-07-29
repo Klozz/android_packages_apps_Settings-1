@@ -59,4 +59,9 @@
     <!-- High touch polling rate -->
     <!-- High touch sensitivity -->
     <!-- Touchscreen hovering -->
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Näherungssensor verwenden, um ein unbeabsichtigtes Aufwecken des Geräts zu vermeiden</string>
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <!-- Torch Power button gestures -->
 </resources>
