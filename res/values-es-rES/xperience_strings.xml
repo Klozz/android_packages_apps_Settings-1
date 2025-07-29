@@ -145,4 +145,9 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Pantalla táctil flotante</string>
     <string name="touchscreen_hovering_summary">Te permitirá deslizar por la pantalla como un ratón en navegadores, escritorios remotos, etc</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Evitar el encendido accidental</string>
+    <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla</string>
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <!-- Torch Power button gestures -->
 </resources>
