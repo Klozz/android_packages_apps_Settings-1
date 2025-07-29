@@ -58,4 +58,7 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">タッチスクリーンのホバリング</string>
     <string name="touchscreen_hovering_summary">ウェブブラウザーやリモートデスクトップなどで、画面をマウスのようにホバーできるようにする。</string>
+    <!-- Pocket mode -->
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <!-- Torch Power button gestures -->
 </resources>
