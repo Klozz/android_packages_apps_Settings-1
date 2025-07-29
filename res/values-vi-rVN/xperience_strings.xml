@@ -81,4 +81,9 @@
     <!-- High touch polling rate -->
     <!-- High touch sensitivity -->
     <!-- Touchscreen hovering -->
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Ngăn chặn tình cờ bật màn hình</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi mở màn hình</string>
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <!-- Torch Power button gestures -->
 </resources>
