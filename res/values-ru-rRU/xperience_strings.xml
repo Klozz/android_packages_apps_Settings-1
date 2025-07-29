@@ -87,4 +87,9 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Управление сенсорным экраном</string>
     <string name="touchscreen_hovering_summary">Позволяет вам навести экран как мышь в веб-браузерах, удаленных настольных компьютерах и т.д.</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Предотвращение случайного включения экрана</string>
+    <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <!-- Torch Power button gestures -->
 </resources>
