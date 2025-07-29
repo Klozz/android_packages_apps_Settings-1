@@ -142,4 +142,9 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Lebegő érintés</string>
     <string name="touchscreen_hovering_summary">Engedélyezi a lebegéssel való vezérlést, mint egy egérrel a böngészőknél, távoli asztaloknál, stb.</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Véletlenébresztés-gátló</string>
+    <string name="proximity_wake_summary">Ellenőrizze a közelségérzékelőt a képernyő felébresztése előtt</string>
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <!-- Torch Power button gestures -->
 </resources>
