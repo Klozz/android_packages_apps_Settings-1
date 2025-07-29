@@ -93,6 +93,7 @@
     <string name="hardware_info">Hardver</string>
     <string name="device_info_battery">Akku</string>
     <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_chipset_default">Ismeretlen chip-szett</string>
     <string name="device_info_resolution">Felbontás</string>
     <string name="device_info_storage">Tárhely</string>
     <!-- Hardware info -->
