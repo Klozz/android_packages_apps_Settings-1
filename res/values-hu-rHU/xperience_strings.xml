@@ -55,6 +55,7 @@
     <string name="hardware_info">Hardver</string>
     <string name="device_info_battery">Akku</string>
     <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_chipset_default">Ismeretlen chip-szett</string>
     <string name="device_info_resolution">Felbontás</string>
     <string name="device_info_storage">Tárhely</string>
     <!-- Hardware info -->
@@ -121,5 +122,9 @@
     <string name="ongoing_action_chip_title">Műveletkijelzés</string>
     <string name="ongoing_action_chip_summary">Folyamatban lévő műveletek (például letöltések) kijelzésének megjelenítése az állapotsorban</string>
     <!-- Navigation bar hint -->
+    <string name="navbar_category">Navigációs sáv</string>
+    <string name="hide_navbar_gesture_bar_title">Gesztussáv-rejtés</string>
+    <string name="hide_navbar_gesture_bar_summary">A gesztussáv elrejtése a képernyő alján</string>
     <!-- Haptic Effect Style -->
+    <string name="haptic_effect_style_title">A rezgő visszajelzés stílusa</string>
 </resources>
