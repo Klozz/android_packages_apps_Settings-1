@@ -147,4 +147,19 @@
     <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Torch Power button gestures -->
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Şarj kontrolü</string>
+    <string name="charging_control_enable_title">Şarj kontrolünü etkinleştir</string>
+    <string name="charging_control_mode_title">Şarj Modu</string>
+    <string name="charging_control_mode_auto_title">Otomatik kullanım çizelgesi</string>
+    <string name="charging_control_mode_auto_summary">Alarm kurulmuş saatlere göre şarjın ne zaman başlayacağını otomatik belirle</string>
+    <string name="charging_control_mode_custom_title">Özel planlama</string>
+    <string name="charging_control_mode_custom_summary">Tam şarj için bir hedef zaman belirleyin</string>
+    <string name="charging_control_mode_limit_title">Şarjı Kısıtla</string>
+    <string name="charging_control_mode_limit_summary">Şarjı belirli bir yüzdeye kısıtla</string>
+    <string name="charging_control_start_time_title">Başlama zamanı</string>
+    <string name="charging_control_start_time_summary">Şarj kontrolü %s saatinden sonra şarj etmeye başladığında aktive edilir</string>
+    <string name="charging_control_target_time_title">Tam şarj için hedef zaman</string>
+    <string name="charging_control_target_time_summary">Batarya %s%% saatinde şarj edilmiş olacak</string>
+    <string name="charging_control_limit_title">Sınır</string>
 </resources>
