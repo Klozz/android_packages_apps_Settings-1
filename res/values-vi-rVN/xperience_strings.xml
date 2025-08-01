@@ -86,4 +86,5 @@
     <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi mở màn hình</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Torch Power button gestures -->
+    <!-- Charging control settings -->
 </resources>
