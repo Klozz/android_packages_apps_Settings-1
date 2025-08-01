@@ -54,4 +54,5 @@
     <string name="proximity_wake_summary">Vérifier le capteur de proximité avant d\'allumer l\'écran</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Torch Power button gestures -->
+    <!-- Charging control settings -->
 </resources>
