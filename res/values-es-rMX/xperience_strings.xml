@@ -182,4 +182,19 @@
     <string name="gesture_power_button_torch_double_tap_title">Pulsar rápidamente dos veces el botón del menú de encendido</string>
     <string name="gesture_double_tap_power_summary_disabled">Desactivado por el gesto de la linterna</string>
     <string name="double_tap_power_for_torch_summary_disabled">Desactivado por el gesto de cámara abierta</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Control de carga</string>
+    <string name="charging_control_enable_title">Activar el control de la carga</string>
+    <string name="charging_control_mode_title">Modo de carga</string>
+    <string name="charging_control_mode_auto_title">Programa automático</string>
+    <string name="charging_control_mode_auto_summary">Determina automáticamente cuándo comenzar a cargar según las alarmas configuradas</string>
+    <string name="charging_control_mode_custom_title">Horario personalizado</string>
+    <string name="charging_control_mode_custom_summary">Establece un tiempo objetivo hasta la carga completa</string>
+    <string name="charging_control_mode_limit_title">Limitar la carga</string>
+    <string name="charging_control_mode_limit_summary">Limitar la carga a un determinado porcentaje</string>
+    <string name="charging_control_start_time_title">Hora de inicio</string>
+    <string name="charging_control_start_time_summary">El control de carga se activa cuando empiezas a cargar después de %s</string>
+    <string name="charging_control_target_time_title">Tiempo objetivo hasta la carga completa</string>
+    <string name="charging_control_target_time_summary">La batería estará completamente cargada en %s</string>
+    <string name="charging_control_limit_title">Limite</string>
 </resources>
