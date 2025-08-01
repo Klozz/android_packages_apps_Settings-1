@@ -184,6 +184,7 @@
     <string name="double_tap_power_for_torch_summary_disabled">Desactivado por el gesto de cámara abierta</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Control de carga</string>
+    <string name="charging_control_summary">Personaliza el horario de carga y los límites para tu dispositivo</string>
     <string name="charging_control_enable_title">Activar el control de la carga</string>
     <string name="charging_control_mode_title">Modo de carga</string>
     <string name="charging_control_mode_auto_title">Programa automático</string>
