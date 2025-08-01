@@ -95,4 +95,19 @@
     <!-- Pocket mode -->
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Torch Power button gestures -->
+    <!-- Charging control settings -->
+    <string name="charging_control_title">充电控制</string>
+    <string name="charging_control_enable_title">启用充电控制</string>
+    <string name="charging_control_mode_title">充电模式</string>
+    <string name="charging_control_mode_auto_title">自动计划</string>
+    <string name="charging_control_mode_auto_summary">根据设置的闹钟自动确定何时开始充电</string>
+    <string name="charging_control_mode_custom_title">自定义计划</string>
+    <string name="charging_control_mode_custom_summary">设定一个完全充满时间</string>
+    <string name="charging_control_mode_limit_title">充电限制</string>
+    <string name="charging_control_mode_limit_summary">充电限制自定义百分比</string>
+    <string name="charging_control_start_time_title">起始时间</string>
+    <string name="charging_control_start_time_summary">在 %s 之后开始充电时，充电控制将被激活</string>
+    <string name="charging_control_target_time_title">完全充满所需的时间</string>
+    <string name="charging_control_target_time_summary">电池将在 %s 完全充满</string>
+    <string name="charging_control_limit_title">限制</string>
 </resources>
