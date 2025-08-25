@@ -88,4 +88,10 @@
     <!-- Battery Styles -->
     <!-- Reality Display Engine -->
     <!-- Pocket judge -->
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Bildschirm-aus Animation</string>
+    <string name="screen_off_animation_scale">Skalierung</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Layouts der Navigationsleiste umkehren</string>
 </resources>

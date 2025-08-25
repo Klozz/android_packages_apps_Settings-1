@@ -121,4 +121,11 @@
     <string name="status_bar_battery_style_title">Kiểu thanh pin</string>
     <!-- Reality Display Engine -->
     <!-- Pocket judge -->
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Hiệu ứng tắt màn hình</string>
+    <string name="screen_off_animation_default">Mặc định</string>
+    <string name="screen_off_animation_scale">Co giãn</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
 </resources>

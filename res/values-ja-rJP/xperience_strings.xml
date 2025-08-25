@@ -106,4 +106,15 @@
     <!-- Battery Styles -->
     <!-- Reality Display Engine -->
     <!-- Pocket judge -->
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">画面オフ時のアニメーション</string>
+    <string name="screen_off_animation_default">既定</string>
+    <string name="screen_off_animation_scale">縮小</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">フルスクリーンアプリ</string>
+    <string name="display_cutout_force_fullscreen_summary">アプリがノッチスペースを無視するように強制する</string>
+    <string name="display_cutout_force_fullscreen_no_apps">アプリはありません</string>
+    <string name="display_cutout_force_fullscreen_restart_app">変更を適用するには、アプリケーションを再起動してください。</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_info">ナビゲーションバーの「戻る」ボタンと「戻る」ボタンを入れ替える</string>
 </resources>

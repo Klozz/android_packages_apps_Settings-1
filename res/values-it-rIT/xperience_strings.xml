@@ -112,4 +112,10 @@
     <string name="status_bar_battery_style_title">Stile della batteria</string>
     <!-- Reality Display Engine -->
     <!-- Pocket judge -->
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animazione di spegnimento schermo</string>
+    <string name="screen_off_animation_default">Predefinito</string>
+    <string name="screen_off_animation_scale">Scala</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Navbar options -->
 </resources>
