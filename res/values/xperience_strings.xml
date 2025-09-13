@@ -300,4 +300,43 @@
     <!-- HDR Display -->
     <string name="hdr_display_title">HDR Display</string>
     <string name="hdr_display_summary">Enable peak brightness for HDR content. This will increase battery usage</string>
+
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">XPerience Updater</string>
+    <string name="update_settings_summary">Check for the latest version of XPerience</string>
+    <string name="update_package" translatable="false">mx.xperience.updater</string>
+    <string name="update_activity" translatable="false">mx.xperience.updater.UpdatesActivity</string>
+
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Languages, gestures, updater, time, backup</string>
+
+    <!-- Ltpo features -->
+    <string name="ltpo_features_title">Enable LTPO features</string>
+    <string name="ltpo_features_summary">Enables device-specific adaptive idle and frame rate features for improving efficiency</string>
+    <string name="gaming_mode_ltpo_features_title">LTPO features</string>
+    <string name="gaming_mode_ltpo_features_summary">Whether to enable device-specific adaptive idle and frame rate features for improving efficiency</string>
+
+    <!-- Adaptive Playback (Smart Pause) -->
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Use smart pause</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>   
 </resources>
+
