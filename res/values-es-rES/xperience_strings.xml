@@ -246,6 +246,10 @@
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Idiomas, gestos, actualizaciones, tiempo, copia de seguridad</string>
     <!-- Ltpo features -->
+    <string name="ltpo_features_title">Habilitar características LTPO</string>
+    <string name="ltpo_features_summary">Permite características adaptativas específicas para el inactivo y la velocidad de fotogramas para mejorar la eficiencia</string>
+    <string name="gaming_mode_ltpo_features_title">Características LTPO</string>
+    <string name="gaming_mode_ltpo_features_summary">Permite habilitar funciones específicas del dispositivo para inactividad adaptativa y frecuencia de cuadros con el fin de mejorar la eficiencia</string>
     <!-- Adaptive Playback (Smart Pause) -->
     <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
     <string name="adaptive_playback_enabled">Usar pausa inteligente</string>
@@ -265,4 +269,6 @@
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
     <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ticker musical</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar pantalla ambiente cuando se reproduce una pista de música nueva</string>
 </resources>
