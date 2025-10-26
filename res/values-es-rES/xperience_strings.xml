@@ -252,4 +252,5 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ticker musical</string>
     <string name="pulse_on_new_tracks_summary">Mostrar pantalla ambiente cuando se reproduce una pista de música nueva</string>
+    <!-- Battery Saver -->
 </resources>
